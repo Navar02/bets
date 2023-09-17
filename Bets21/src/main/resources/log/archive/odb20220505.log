@@ -1,0 +1,65 @@
+------------------------------------------------------------------------------------------------------------------------
+
+[2022-05-05 14:29:52 #1 store] 
+Database 'C:\Users\Joseba\git\repository\Bets21\src\main\resources\bets.temp' is opened by 10016@DESKTOP-C3VT0J7
+
+[2022-05-05 14:29:52 #2 type.registry] 
+New type domain.Question
+
+[2022-05-05 14:29:52 #3 type] 
+Type domain.Question is not enhanced.
+
+[2022-05-05 14:29:52 #4 type.registry] 
+New type domain.Apuesta
+
+[2022-05-05 14:29:52 #5 type.registry] 
+New type java.util.Vector<domain.Apuesta>
+
+[2022-05-05 14:29:52 #6 type.registry] 
+New type domain.Pronosticos
+
+[2022-05-05 14:29:52 #7 type.registry] 
+New type domain.Event
+
+[2022-05-05 14:29:52 #8 type] 
+Type domain.Apuesta is not enhanced.
+
+[2022-05-05 14:29:52 #9 type] 
+Type domain.Pronosticos is not enhanced.
+
+[2022-05-05 14:29:52 #10 type.registry] 
+New type java.util.Vector<java.lang.Float>
+
+[2022-05-05 14:29:52 #11 type.registry] 
+New type java.util.Vector<java.lang.String>
+
+[2022-05-05 14:29:52 #12 type] 
+Type domain.Event is not enhanced.
+
+[2022-05-05 14:29:52 #13 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2022-05-05 14:29:52 #14 type.registry] 
+New type domain.User
+
+[2022-05-05 14:29:52 #15 type] 
+Type domain.User is not enhanced.
+
+[2022-05-05 14:29:52 #16 type.registry] 
+New type domain.Tarjeta
+
+[2022-05-05 14:29:52 #17 type] 
+Type domain.Tarjeta is not enhanced.
+
+[2022-05-05 14:29:52 #18 type.registry] 
+New type domain.Transaccion
+
+[2022-05-05 14:29:52 #19 type.registry] 
+New type java.util.Vector<domain.Transaccion>
+
+[2022-05-05 14:29:52 #20 type] 
+Type domain.Transaccion is not enhanced.
+
+[2022-05-05 14:29:52 #21 type.registry] 
+New type java.util.Vector<java.lang.Object>
+

@@ -1,0 +1,1919 @@
+------------------------------------------------------------------------------------------------------------------------
+
+[2022-05-02 11:38:40 #1 store] 
+Database 'C:\Users\Joseba\git\repository\Bets21\src\main\resources\bets.temp' is opened by 13372@DESKTOP-C3VT0J7
+
+[2022-05-02 11:38:40 #2 type.registry] 
+New type domain.Question
+
+[2022-05-02 11:38:40 #3 type] 
+Type domain.Question is not enhanced.
+
+[2022-05-02 11:38:40 #4 type.registry] 
+New type domain.Apuesta
+
+[2022-05-02 11:38:40 #5 type.registry] 
+New type java.util.Vector<domain.Apuesta>
+
+[2022-05-02 11:38:40 #6 type.registry] 
+New type domain.Pronosticos
+
+[2022-05-02 11:38:40 #7 type.registry] 
+New type domain.Event
+
+[2022-05-02 11:38:40 #8 type] 
+Type domain.Apuesta is not enhanced.
+
+[2022-05-02 11:38:40 #9 type] 
+Type domain.Pronosticos is not enhanced.
+
+[2022-05-02 11:38:40 #10 type.registry] 
+New type java.util.Vector<java.lang.Float>
+
+[2022-05-02 11:38:40 #11 type.registry] 
+New type java.util.Vector<java.lang.String>
+
+[2022-05-02 11:38:40 #12 type] 
+Type domain.Event is not enhanced.
+
+[2022-05-02 11:38:40 #13 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2022-05-02 11:38:40 #14 type.registry] 
+New type domain.User
+
+[2022-05-02 11:38:40 #15 type] 
+Type domain.User is not enhanced.
+
+[2022-05-02 11:38:40 #16 type.registry] 
+New type domain.Tarjeta
+
+[2022-05-02 11:38:40 #17 type] 
+Type domain.Tarjeta is not enhanced.
+
+[2022-05-02 11:38:40 #18 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2022-05-02 11:43:02 #1 store] 
+Database 'C:\Users\Joseba\git\repository\Bets21\src\main\resources\bets.temp' is opened by 12216@DESKTOP-C3VT0J7
+
+[2022-05-02 11:43:03 #2 type.registry] 
+New type domain.Question
+
+[2022-05-02 11:43:03 #3 type] 
+Type domain.Question is not enhanced.
+
+[2022-05-02 11:43:03 #4 type.registry] 
+New type domain.Apuesta
+
+[2022-05-02 11:43:03 #5 type.registry] 
+New type java.util.Vector<domain.Apuesta>
+
+[2022-05-02 11:43:03 #6 type.registry] 
+New type domain.Pronosticos
+
+[2022-05-02 11:43:03 #7 type.registry] 
+New type domain.Event
+
+[2022-05-02 11:43:03 #8 type] 
+Type domain.Apuesta is not enhanced.
+
+[2022-05-02 11:43:03 #9 type] 
+Type domain.Pronosticos is not enhanced.
+
+[2022-05-02 11:43:03 #10 type.registry] 
+New type java.util.Vector<java.lang.Float>
+
+[2022-05-02 11:43:03 #11 type.registry] 
+New type java.util.Vector<java.lang.String>
+
+[2022-05-02 11:43:03 #12 type] 
+Type domain.Event is not enhanced.
+
+[2022-05-02 11:43:03 #13 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2022-05-02 11:43:03 #14 type.registry] 
+New type domain.User
+
+[2022-05-02 11:43:03 #15 type] 
+Type domain.User is not enhanced.
+
+[2022-05-02 11:43:03 #16 type.registry] 
+New type domain.Tarjeta
+
+[2022-05-02 11:43:03 #17 type] 
+Type domain.Tarjeta is not enhanced.
+
+[2022-05-02 11:43:03 #18 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2022-05-02 11:44:29 #1 store] 
+Database 'C:\Users\Joseba\git\repository\Bets21\src\main\resources\bets.temp' is opened by 360@DESKTOP-C3VT0J7
+
+[2022-05-02 11:44:30 #2 type.registry] 
+New type domain.Question
+
+[2022-05-02 11:44:30 #3 type] 
+Type domain.Question is not enhanced.
+
+[2022-05-02 11:44:30 #4 type.registry] 
+New type domain.Apuesta
+
+[2022-05-02 11:44:30 #5 type.registry] 
+New type java.util.Vector<domain.Apuesta>
+
+[2022-05-02 11:44:30 #6 type.registry] 
+New type domain.Pronosticos
+
+[2022-05-02 11:44:30 #7 type.registry] 
+New type domain.Event
+
+[2022-05-02 11:44:30 #8 type] 
+Type domain.Apuesta is not enhanced.
+
+[2022-05-02 11:44:30 #9 type] 
+Type domain.Pronosticos is not enhanced.
+
+[2022-05-02 11:44:30 #10 type.registry] 
+New type java.util.Vector<java.lang.Float>
+
+[2022-05-02 11:44:30 #11 type.registry] 
+New type java.util.Vector<java.lang.String>
+
+[2022-05-02 11:44:30 #12 type] 
+Type domain.Event is not enhanced.
+
+[2022-05-02 11:44:30 #13 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2022-05-02 11:44:30 #14 type.registry] 
+New type domain.User
+
+[2022-05-02 11:44:30 #15 type] 
+Type domain.User is not enhanced.
+
+[2022-05-02 11:44:30 #16 type.registry] 
+New type domain.Tarjeta
+
+[2022-05-02 11:44:30 #17 type] 
+Type domain.Tarjeta is not enhanced.
+
+[2022-05-02 11:44:30 #18 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2022-05-02 11:51:42 #1 store] 
+Database 'C:\Users\Joseba\git\repository\Bets21\src\main\resources\bets.temp' is opened by 11756@DESKTOP-C3VT0J7
+
+[2022-05-02 11:51:42 #2 type.registry] 
+New type domain.Question
+
+[2022-05-02 11:51:42 #3 type] 
+Type domain.Question is not enhanced.
+
+[2022-05-02 11:51:42 #4 type.registry] 
+New type domain.Apuesta
+
+[2022-05-02 11:51:42 #5 type.registry] 
+New type java.util.Vector<domain.Apuesta>
+
+[2022-05-02 11:51:42 #6 type.registry] 
+New type domain.Pronosticos
+
+[2022-05-02 11:51:42 #7 type.registry] 
+New type domain.Event
+
+[2022-05-02 11:51:42 #8 type] 
+Type domain.Apuesta is not enhanced.
+
+[2022-05-02 11:51:42 #9 type] 
+Type domain.Pronosticos is not enhanced.
+
+[2022-05-02 11:51:42 #10 type.registry] 
+New type java.util.Vector<java.lang.Float>
+
+[2022-05-02 11:51:42 #11 type.registry] 
+New type java.util.Vector<java.lang.String>
+
+[2022-05-02 11:51:42 #12 type] 
+Type domain.Event is not enhanced.
+
+[2022-05-02 11:51:42 #13 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2022-05-02 11:51:42 #14 type.registry] 
+New type domain.User
+
+[2022-05-02 11:51:42 #15 type] 
+Type domain.User is not enhanced.
+
+[2022-05-02 11:51:42 #16 type.registry] 
+New type domain.Tarjeta
+
+[2022-05-02 11:51:42 #17 type] 
+Type domain.Tarjeta is not enhanced.
+
+[2022-05-02 11:51:42 #18 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2022-05-02 11:54:23 #1 store] 
+Database 'C:\Users\Joseba\git\repository\Bets21\src\main\resources\bets.temp' is opened by 11340@DESKTOP-C3VT0J7
+
+[2022-05-02 11:54:23 #2 type.registry] 
+New type domain.Question
+
+[2022-05-02 11:54:23 #3 type] 
+Type domain.Question is not enhanced.
+
+[2022-05-02 11:54:23 #4 type.registry] 
+New type domain.Apuesta
+
+[2022-05-02 11:54:23 #5 type.registry] 
+New type java.util.Vector<domain.Apuesta>
+
+[2022-05-02 11:54:23 #6 type.registry] 
+New type domain.Pronosticos
+
+[2022-05-02 11:54:23 #7 type.registry] 
+New type domain.Event
+
+[2022-05-02 11:54:23 #8 type] 
+Type domain.Apuesta is not enhanced.
+
+[2022-05-02 11:54:23 #9 type] 
+Type domain.Pronosticos is not enhanced.
+
+[2022-05-02 11:54:23 #10 type.registry] 
+New type java.util.Vector<java.lang.Float>
+
+[2022-05-02 11:54:23 #11 type.registry] 
+New type java.util.Vector<java.lang.String>
+
+[2022-05-02 11:54:23 #12 type] 
+Type domain.Event is not enhanced.
+
+[2022-05-02 11:54:23 #13 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2022-05-02 11:54:23 #14 type.registry] 
+New type domain.User
+
+[2022-05-02 11:54:23 #15 type] 
+Type domain.User is not enhanced.
+
+[2022-05-02 11:54:23 #16 type.registry] 
+New type domain.Tarjeta
+
+[2022-05-02 11:54:23 #17 type] 
+Type domain.Tarjeta is not enhanced.
+
+[2022-05-02 11:54:23 #18 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2022-05-02 11:56:12 #1 store] 
+Database 'C:\Users\Joseba\git\repository\Bets21\src\main\resources\bets.temp' is opened by 10288@DESKTOP-C3VT0J7
+
+[2022-05-02 11:56:12 #2 type.registry] 
+New type domain.Question
+
+[2022-05-02 11:56:12 #3 type] 
+Type domain.Question is not enhanced.
+
+[2022-05-02 11:56:12 #4 type.registry] 
+New type domain.Apuesta
+
+[2022-05-02 11:56:12 #5 type.registry] 
+New type java.util.Vector<domain.Apuesta>
+
+[2022-05-02 11:56:12 #6 type.registry] 
+New type domain.Pronosticos
+
+[2022-05-02 11:56:12 #7 type.registry] 
+New type domain.Event
+
+[2022-05-02 11:56:12 #8 type] 
+Type domain.Apuesta is not enhanced.
+
+[2022-05-02 11:56:12 #9 type] 
+Type domain.Pronosticos is not enhanced.
+
+[2022-05-02 11:56:12 #10 type.registry] 
+New type java.util.Vector<java.lang.Float>
+
+[2022-05-02 11:56:12 #11 type.registry] 
+New type java.util.Vector<java.lang.String>
+
+[2022-05-02 11:56:12 #12 type] 
+Type domain.Event is not enhanced.
+
+[2022-05-02 11:56:12 #13 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2022-05-02 11:56:12 #14 type.registry] 
+New type domain.User
+
+[2022-05-02 11:56:12 #15 type] 
+Type domain.User is not enhanced.
+
+[2022-05-02 11:56:12 #16 type.registry] 
+New type domain.Tarjeta
+
+[2022-05-02 11:56:12 #17 type] 
+Type domain.Tarjeta is not enhanced.
+
+[2022-05-02 11:56:12 #18 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2022-05-02 11:58:55 #1 store] 
+Database 'C:\Users\Joseba\git\repository\Bets21\src\main\resources\bets.temp' has been recovered (tr. 1-7)
+
+[2022-05-02 11:58:55 #2 store] 
+Database 'C:\Users\Joseba\git\repository\Bets21\src\main\resources\bets.temp' is opened by 13532@DESKTOP-C3VT0J7
+
+[2022-05-02 11:58:55 #3 type] 
+Type domain.Question is not enhanced.
+
+[2022-05-02 11:58:55 #4 type] 
+Type domain.Apuesta is not enhanced.
+
+[2022-05-02 11:58:55 #5 type] 
+Type domain.Pronosticos is not enhanced.
+
+[2022-05-02 11:58:55 #6 type] 
+Type domain.Event is not enhanced.
+
+[2022-05-02 11:58:55 #7 type] 
+Type domain.User is not enhanced.
+
+[2022-05-02 11:58:55 #8 type] 
+Type domain.Tarjeta is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2022-05-02 12:03:58 #1 store] 
+Database 'C:\Users\Joseba\git\repository\Bets21\src\main\resources\bets.temp' is opened by 14164@DESKTOP-C3VT0J7
+
+[2022-05-02 12:03:58 #2 type.registry] 
+New type domain.Question
+
+[2022-05-02 12:03:58 #3 type] 
+Type domain.Question is not enhanced.
+
+[2022-05-02 12:03:58 #4 type.registry] 
+New type domain.Apuesta
+
+[2022-05-02 12:03:58 #5 type.registry] 
+New type java.util.Vector<domain.Apuesta>
+
+[2022-05-02 12:03:58 #6 type.registry] 
+New type domain.Pronosticos
+
+[2022-05-02 12:03:58 #7 type.registry] 
+New type domain.Event
+
+[2022-05-02 12:03:58 #8 type] 
+Type domain.Apuesta is not enhanced.
+
+[2022-05-02 12:03:58 #9 type] 
+Type domain.Pronosticos is not enhanced.
+
+[2022-05-02 12:03:58 #10 type.registry] 
+New type java.util.Vector<java.lang.Float>
+
+[2022-05-02 12:03:58 #11 type.registry] 
+New type java.util.Vector<java.lang.String>
+
+[2022-05-02 12:03:58 #12 type] 
+Type domain.Event is not enhanced.
+
+[2022-05-02 12:03:58 #13 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2022-05-02 12:03:58 #14 type.registry] 
+New type domain.User
+
+[2022-05-02 12:03:58 #15 type] 
+Type domain.User is not enhanced.
+
+[2022-05-02 12:03:58 #16 type.registry] 
+New type domain.Tarjeta
+
+[2022-05-02 12:03:58 #17 type] 
+Type domain.Tarjeta is not enhanced.
+
+[2022-05-02 12:03:58 #18 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2022-05-02 12:15:49 #1 store] 
+Database 'C:\Users\Joseba\git\repository\Bets21\src\main\resources\bets.temp' is opened by 3680@DESKTOP-C3VT0J7
+
+[2022-05-02 12:15:49 #2 type.registry] 
+New type domain.Question
+
+[2022-05-02 12:15:49 #3 type] 
+Type domain.Question is not enhanced.
+
+[2022-05-02 12:15:49 #4 type.registry] 
+New type domain.Apuesta
+
+[2022-05-02 12:15:49 #5 type.registry] 
+New type java.util.Vector<domain.Apuesta>
+
+[2022-05-02 12:15:49 #6 type.registry] 
+New type domain.Pronosticos
+
+[2022-05-02 12:15:49 #7 type.registry] 
+New type domain.Event
+
+[2022-05-02 12:15:49 #8 type] 
+Type domain.Apuesta is not enhanced.
+
+[2022-05-02 12:15:49 #9 type] 
+Type domain.Pronosticos is not enhanced.
+
+[2022-05-02 12:15:49 #10 type.registry] 
+New type java.util.Vector<java.lang.Float>
+
+[2022-05-02 12:15:49 #11 type.registry] 
+New type java.util.Vector<java.lang.String>
+
+[2022-05-02 12:15:49 #12 type] 
+Type domain.Event is not enhanced.
+
+[2022-05-02 12:15:49 #13 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2022-05-02 12:15:49 #14 type.registry] 
+New type domain.User
+
+[2022-05-02 12:15:49 #15 type] 
+Type domain.User is not enhanced.
+
+[2022-05-02 12:15:49 #16 type.registry] 
+New type domain.Tarjeta
+
+[2022-05-02 12:15:49 #17 type] 
+Type domain.Tarjeta is not enhanced.
+
+[2022-05-02 12:15:49 #18 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2022-05-02 12:24:59 #1 store] 
+Database 'C:\Users\Joseba\git\repository\Bets21\src\main\resources\bets.temp' is opened by 13804@DESKTOP-C3VT0J7
+
+[2022-05-02 12:24:59 #2 type.registry] 
+New type domain.Question
+
+[2022-05-02 12:24:59 #3 type] 
+Type domain.Question is not enhanced.
+
+[2022-05-02 12:24:59 #4 type.registry] 
+New type domain.Apuesta
+
+[2022-05-02 12:25:00 #5 type.registry] 
+New type java.util.Vector<domain.Apuesta>
+
+[2022-05-02 12:25:00 #6 type.registry] 
+New type domain.Pronosticos
+
+[2022-05-02 12:25:00 #7 type.registry] 
+New type domain.Event
+
+[2022-05-02 12:25:00 #8 type] 
+Type domain.Apuesta is not enhanced.
+
+[2022-05-02 12:25:00 #9 type] 
+Type domain.Pronosticos is not enhanced.
+
+[2022-05-02 12:25:00 #10 type.registry] 
+New type java.util.Vector<java.lang.Float>
+
+[2022-05-02 12:25:00 #11 type.registry] 
+New type java.util.Vector<java.lang.String>
+
+[2022-05-02 12:25:00 #12 type] 
+Type domain.Event is not enhanced.
+
+[2022-05-02 12:25:00 #13 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2022-05-02 12:25:00 #14 type.registry] 
+New type domain.User
+
+[2022-05-02 12:25:00 #15 type] 
+Type domain.User is not enhanced.
+
+[2022-05-02 12:25:00 #16 type.registry] 
+New type domain.Tarjeta
+
+[2022-05-02 12:25:00 #17 type] 
+Type domain.Tarjeta is not enhanced.
+
+[2022-05-02 12:25:00 #18 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2022-05-02 17:52:41 #1 store] 
+Database 'C:\Users\Joseba\git\repository\Bets21\src\main\resources\bets.temp' is opened by 8360@DESKTOP-C3VT0J7
+
+[2022-05-02 17:52:41 #2 type.registry] 
+New type domain.Question
+
+[2022-05-02 17:52:41 #3 type] 
+Type domain.Question is not enhanced.
+
+[2022-05-02 17:52:41 #4 type.registry] 
+New type domain.Apuesta
+
+[2022-05-02 17:52:41 #5 type.registry] 
+New type java.util.Vector<domain.Apuesta>
+
+[2022-05-02 17:52:41 #6 type.registry] 
+New type domain.Pronosticos
+
+[2022-05-02 17:52:41 #7 type.registry] 
+New type domain.Event
+
+[2022-05-02 17:52:41 #8 type] 
+Type domain.Apuesta is not enhanced.
+
+[2022-05-02 17:52:41 #9 type] 
+Type domain.Pronosticos is not enhanced.
+
+[2022-05-02 17:52:41 #10 type.registry] 
+New type java.util.Vector<java.lang.Float>
+
+[2022-05-02 17:52:41 #11 type.registry] 
+New type java.util.Vector<java.lang.String>
+
+[2022-05-02 17:52:41 #12 type] 
+Type domain.Event is not enhanced.
+
+[2022-05-02 17:52:41 #13 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2022-05-02 17:52:41 #14 type.registry] 
+New type domain.User
+
+[2022-05-02 17:52:41 #15 type] 
+Type domain.User is not enhanced.
+
+[2022-05-02 17:52:41 #16 type.registry] 
+New type domain.Tarjeta
+
+[2022-05-02 17:52:41 #17 type] 
+Type domain.Tarjeta is not enhanced.
+
+[2022-05-02 17:52:41 #18 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2022-05-02 17:57:14 #1 store] 
+Database 'C:\Users\Joseba\git\repository\Bets21\src\main\resources\bets.temp' is opened by 576@DESKTOP-C3VT0J7
+
+[2022-05-02 17:57:14 #2 type.registry] 
+New type domain.Question
+
+[2022-05-02 17:57:14 #3 type] 
+Type domain.Question is not enhanced.
+
+[2022-05-02 17:57:14 #4 type.registry] 
+New type domain.Apuesta
+
+[2022-05-02 17:57:14 #5 type.registry] 
+New type java.util.Vector<domain.Apuesta>
+
+[2022-05-02 17:57:14 #6 type.registry] 
+New type domain.Pronosticos
+
+[2022-05-02 17:57:14 #7 type.registry] 
+New type domain.Event
+
+[2022-05-02 17:57:14 #8 type] 
+Type domain.Apuesta is not enhanced.
+
+[2022-05-02 17:57:14 #9 type] 
+Type domain.Pronosticos is not enhanced.
+
+[2022-05-02 17:57:14 #10 type.registry] 
+New type java.util.Vector<java.lang.Float>
+
+[2022-05-02 17:57:14 #11 type.registry] 
+New type java.util.Vector<java.lang.String>
+
+[2022-05-02 17:57:14 #12 type] 
+Type domain.Event is not enhanced.
+
+[2022-05-02 17:57:14 #13 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2022-05-02 17:57:14 #14 type.registry] 
+New type domain.User
+
+[2022-05-02 17:57:14 #15 type] 
+Type domain.User is not enhanced.
+
+[2022-05-02 17:57:14 #16 type.registry] 
+New type domain.Tarjeta
+
+[2022-05-02 17:57:14 #17 type] 
+Type domain.Tarjeta is not enhanced.
+
+[2022-05-02 17:57:14 #18 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2022-05-02 17:58:03 #1 store] 
+Database 'C:\Users\Joseba\git\repository\Bets21\src\main\resources\bets.temp' is opened by 10804@DESKTOP-C3VT0J7
+
+[2022-05-02 17:58:03 #2 type.registry] 
+New type domain.Question
+
+[2022-05-02 17:58:03 #3 type] 
+Type domain.Question is not enhanced.
+
+[2022-05-02 17:58:03 #4 type.registry] 
+New type domain.Apuesta
+
+[2022-05-02 17:58:03 #5 type.registry] 
+New type java.util.Vector<domain.Apuesta>
+
+[2022-05-02 17:58:03 #6 type.registry] 
+New type domain.Pronosticos
+
+[2022-05-02 17:58:03 #7 type.registry] 
+New type domain.Event
+
+[2022-05-02 17:58:03 #8 type] 
+Type domain.Apuesta is not enhanced.
+
+[2022-05-02 17:58:03 #9 type] 
+Type domain.Pronosticos is not enhanced.
+
+[2022-05-02 17:58:03 #10 type.registry] 
+New type java.util.Vector<java.lang.Float>
+
+[2022-05-02 17:58:03 #11 type.registry] 
+New type java.util.Vector<java.lang.String>
+
+[2022-05-02 17:58:03 #12 type] 
+Type domain.Event is not enhanced.
+
+[2022-05-02 17:58:03 #13 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2022-05-02 17:58:03 #14 type.registry] 
+New type domain.User
+
+[2022-05-02 17:58:03 #15 type] 
+Type domain.User is not enhanced.
+
+[2022-05-02 17:58:03 #16 type.registry] 
+New type domain.Tarjeta
+
+[2022-05-02 17:58:03 #17 type] 
+Type domain.Tarjeta is not enhanced.
+
+[2022-05-02 17:58:03 #18 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2022-05-02 17:59:18 #1 store] 
+Database 'C:\Users\Joseba\git\repository\Bets21\src\main\resources\bets.temp' is opened by 7576@DESKTOP-C3VT0J7
+
+[2022-05-02 17:59:18 #2 type.registry] 
+New type domain.Question
+
+[2022-05-02 17:59:18 #3 type] 
+Type domain.Question is not enhanced.
+
+[2022-05-02 17:59:18 #4 type.registry] 
+New type domain.Apuesta
+
+[2022-05-02 17:59:18 #5 type.registry] 
+New type java.util.Vector<domain.Apuesta>
+
+[2022-05-02 17:59:19 #6 type.registry] 
+New type domain.Pronosticos
+
+[2022-05-02 17:59:19 #7 type.registry] 
+New type domain.Event
+
+[2022-05-02 17:59:19 #8 type] 
+Type domain.Apuesta is not enhanced.
+
+[2022-05-02 17:59:19 #9 type] 
+Type domain.Pronosticos is not enhanced.
+
+[2022-05-02 17:59:19 #10 type.registry] 
+New type java.util.Vector<java.lang.Float>
+
+[2022-05-02 17:59:19 #11 type.registry] 
+New type java.util.Vector<java.lang.String>
+
+[2022-05-02 17:59:19 #12 type] 
+Type domain.Event is not enhanced.
+
+[2022-05-02 17:59:19 #13 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2022-05-02 17:59:19 #14 type.registry] 
+New type domain.User
+
+[2022-05-02 17:59:19 #15 type] 
+Type domain.User is not enhanced.
+
+[2022-05-02 17:59:19 #16 type.registry] 
+New type domain.Tarjeta
+
+[2022-05-02 17:59:19 #17 type] 
+Type domain.Tarjeta is not enhanced.
+
+[2022-05-02 17:59:19 #18 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2022-05-02 18:03:00 #1 store] 
+Database 'C:\Users\Joseba\git\repository\Bets21\src\main\resources\bets.temp' is opened by 10180@DESKTOP-C3VT0J7
+
+[2022-05-02 18:03:00 #2 type.registry] 
+New type domain.Question
+
+[2022-05-02 18:03:00 #3 type] 
+Type domain.Question is not enhanced.
+
+[2022-05-02 18:03:00 #4 type.registry] 
+New type domain.Apuesta
+
+[2022-05-02 18:03:00 #5 type.registry] 
+New type java.util.Vector<domain.Apuesta>
+
+[2022-05-02 18:03:00 #6 type.registry] 
+New type domain.Pronosticos
+
+[2022-05-02 18:03:00 #7 type.registry] 
+New type domain.Event
+
+[2022-05-02 18:03:00 #8 type] 
+Type domain.Apuesta is not enhanced.
+
+[2022-05-02 18:03:00 #9 type] 
+Type domain.Pronosticos is not enhanced.
+
+[2022-05-02 18:03:00 #10 type.registry] 
+New type java.util.Vector<java.lang.Float>
+
+[2022-05-02 18:03:00 #11 type.registry] 
+New type java.util.Vector<java.lang.String>
+
+[2022-05-02 18:03:00 #12 type] 
+Type domain.Event is not enhanced.
+
+[2022-05-02 18:03:00 #13 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2022-05-02 18:03:00 #14 type.registry] 
+New type domain.User
+
+[2022-05-02 18:03:00 #15 type] 
+Type domain.User is not enhanced.
+
+[2022-05-02 18:03:00 #16 type.registry] 
+New type domain.Tarjeta
+
+[2022-05-02 18:03:00 #17 type] 
+Type domain.Tarjeta is not enhanced.
+
+[2022-05-02 18:03:00 #18 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2022-05-02 18:08:36 #1 store] 
+Database 'C:\Users\Joseba\git\repository\Bets21\src\main\resources\bets.temp' is opened by 11196@DESKTOP-C3VT0J7
+
+[2022-05-02 18:08:36 #2 type.registry] 
+New type domain.Question
+
+[2022-05-02 18:08:36 #3 type] 
+Type domain.Question is not enhanced.
+
+[2022-05-02 18:08:36 #4 type.registry] 
+New type domain.Apuesta
+
+[2022-05-02 18:08:36 #5 type.registry] 
+New type java.util.Vector<domain.Apuesta>
+
+[2022-05-02 18:08:36 #6 type.registry] 
+New type domain.Pronosticos
+
+[2022-05-02 18:08:36 #7 type.registry] 
+New type domain.Event
+
+[2022-05-02 18:08:36 #8 type] 
+Type domain.Apuesta is not enhanced.
+
+[2022-05-02 18:08:36 #9 type] 
+Type domain.Pronosticos is not enhanced.
+
+[2022-05-02 18:08:36 #10 type.registry] 
+New type java.util.Vector<java.lang.Float>
+
+[2022-05-02 18:08:36 #11 type.registry] 
+New type java.util.Vector<java.lang.String>
+
+[2022-05-02 18:08:36 #12 type] 
+Type domain.Event is not enhanced.
+
+[2022-05-02 18:08:36 #13 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2022-05-02 18:08:36 #14 type.registry] 
+New type domain.User
+
+[2022-05-02 18:08:36 #15 type] 
+Type domain.User is not enhanced.
+
+[2022-05-02 18:08:36 #16 type.registry] 
+New type domain.Tarjeta
+
+[2022-05-02 18:08:36 #17 type] 
+Type domain.Tarjeta is not enhanced.
+
+[2022-05-02 18:08:36 #18 type.registry] 
+New type domain.Transaccion
+
+[2022-05-02 18:08:36 #19 type.registry] 
+New type java.util.Vector<domain.Transaccion>
+
+[2022-05-02 18:08:36 #20 type] 
+Type domain.Transaccion is not enhanced.
+
+[2022-05-02 18:08:36 #21 type.registry] 
+New type java.time.LocalDateTime
+
+[2022-05-02 18:08:36 #22 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2022-05-02 18:08:45 #23 *] 
+[ObjectDB 2.6.9_09] Unexpected exception (Error 990)
+  Generated by OpenJDK 64-Bit Server VM 16.0.2 (on Windows 10 10.0).
+Please report this error on http://www.objectdb.com/database/issue/new
+com.objectdb.o.InternalException: null
+com.objectdb.o.InternalException
+	at com.objectdb.o.VUT.e(VUT.java:227)
+	at com.objectdb.o.VUT.e(VUT.java:148)
+	at com.objectdb.o.UMR.t(UMR.java:461)
+	at com.objectdb.o.UMR.r(UMR.java:404)
+	at com.objectdb.o.UML.s(UML.java:492)
+	at com.objectdb.o.MMM.X(MMM.java:825)
+	at com.objectdb.o.OBM.bE(OBM.java:410)
+	at com.objectdb.o.OBM.bE(OBM.java:269)
+	at com.objectdb.jpa.EMImpl.persist(EMImpl.java:416)
+	at dataAccess.DataAccess.addDinero(DataAccess.java:408)
+	at businessLogic.BLFacadeImplementation.anadirDinero(BLFacadeImplementation.java:243)
+	at gui.MiCarteraGUI$3.actionPerformed(MiCarteraGUI.java:113)
+	at java.desktop/javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1972)
+	at java.desktop/javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2313)
+	at java.desktop/javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:405)
+	at java.desktop/javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:262)
+	at java.desktop/javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:279)
+	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6617)
+	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3342)
+	at java.desktop/java.awt.Component.processEvent(Component.java:6382)
+	at java.desktop/java.awt.Container.processEvent(Container.java:2264)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:4993)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2322)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4825)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4934)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4563)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4504)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2308)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2773)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4825)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:772)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:391)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:95)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:743)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:391)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:742)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2022-05-02 18:10:15 #1 store] 
+Database 'C:\Users\Joseba\git\repository\Bets21\src\main\resources\bets.temp' is opened by 608@DESKTOP-C3VT0J7
+
+[2022-05-02 18:10:16 #2 type.registry] 
+New type domain.Question
+
+[2022-05-02 18:10:16 #3 type] 
+Type domain.Question is not enhanced.
+
+[2022-05-02 18:10:16 #4 type.registry] 
+New type domain.Apuesta
+
+[2022-05-02 18:10:16 #5 type.registry] 
+New type java.util.Vector<domain.Apuesta>
+
+[2022-05-02 18:10:16 #6 type.registry] 
+New type domain.Pronosticos
+
+[2022-05-02 18:10:16 #7 type.registry] 
+New type domain.Event
+
+[2022-05-02 18:10:16 #8 type] 
+Type domain.Apuesta is not enhanced.
+
+[2022-05-02 18:10:16 #9 type] 
+Type domain.Pronosticos is not enhanced.
+
+[2022-05-02 18:10:16 #10 type.registry] 
+New type java.util.Vector<java.lang.Float>
+
+[2022-05-02 18:10:16 #11 type.registry] 
+New type java.util.Vector<java.lang.String>
+
+[2022-05-02 18:10:16 #12 type] 
+Type domain.Event is not enhanced.
+
+[2022-05-02 18:10:16 #13 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2022-05-02 18:10:16 #14 type.registry] 
+New type domain.User
+
+[2022-05-02 18:10:16 #15 type] 
+Type domain.User is not enhanced.
+
+[2022-05-02 18:10:16 #16 type.registry] 
+New type domain.Tarjeta
+
+[2022-05-02 18:10:16 #17 type] 
+Type domain.Tarjeta is not enhanced.
+
+[2022-05-02 18:10:16 #18 type.registry] 
+New type domain.Transaccion
+
+[2022-05-02 18:10:16 #19 type.registry] 
+New type java.util.Vector<domain.Transaccion>
+
+[2022-05-02 18:10:16 #20 type] 
+Type domain.Transaccion is not enhanced.
+
+[2022-05-02 18:10:16 #21 type.registry] 
+New type java.time.LocalDateTime
+
+[2022-05-02 18:10:16 #22 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2022-05-02 18:10:31 #23 *] 
+[ObjectDB 2.6.9_09] Unexpected exception (Error 990)
+  Generated by OpenJDK 64-Bit Server VM 16.0.2 (on Windows 10 10.0).
+Please report this error on http://www.objectdb.com/database/issue/new
+com.objectdb.o.InternalException: null
+com.objectdb.o.InternalException
+	at com.objectdb.o.VUT.e(VUT.java:227)
+	at com.objectdb.o.VUT.e(VUT.java:148)
+	at com.objectdb.o.UMR.t(UMR.java:461)
+	at com.objectdb.o.UMR.r(UMR.java:404)
+	at com.objectdb.o.UML.s(UML.java:492)
+	at com.objectdb.o.MMM.X(MMM.java:825)
+	at com.objectdb.o.OBM.bE(OBM.java:410)
+	at com.objectdb.o.OBM.bE(OBM.java:269)
+	at com.objectdb.jpa.EMImpl.persist(EMImpl.java:416)
+	at dataAccess.DataAccess.addDinero(DataAccess.java:408)
+	at businessLogic.BLFacadeImplementation.anadirDinero(BLFacadeImplementation.java:243)
+	at gui.MiCarteraGUI$3.actionPerformed(MiCarteraGUI.java:113)
+	at java.desktop/javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1972)
+	at java.desktop/javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2313)
+	at java.desktop/javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:405)
+	at java.desktop/javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:262)
+	at java.desktop/javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:279)
+	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6617)
+	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3342)
+	at java.desktop/java.awt.Component.processEvent(Component.java:6382)
+	at java.desktop/java.awt.Container.processEvent(Container.java:2264)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:4993)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2322)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4825)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4934)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4563)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4504)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2308)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2773)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4825)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:772)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:391)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:95)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:743)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:391)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:742)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2022-05-02 18:12:00 #1 store] 
+Database 'C:\Users\Joseba\git\repository\Bets21\src\main\resources\bets.temp' is opened by 13528@DESKTOP-C3VT0J7
+
+[2022-05-02 18:12:00 #2 type.registry] 
+New type domain.Question
+
+[2022-05-02 18:12:00 #3 type] 
+Type domain.Question is not enhanced.
+
+[2022-05-02 18:12:00 #4 type.registry] 
+New type domain.Apuesta
+
+[2022-05-02 18:12:00 #5 type.registry] 
+New type java.util.Vector<domain.Apuesta>
+
+[2022-05-02 18:12:00 #6 type.registry] 
+New type domain.Pronosticos
+
+[2022-05-02 18:12:00 #7 type.registry] 
+New type domain.Event
+
+[2022-05-02 18:12:00 #8 type] 
+Type domain.Apuesta is not enhanced.
+
+[2022-05-02 18:12:00 #9 type] 
+Type domain.Pronosticos is not enhanced.
+
+[2022-05-02 18:12:00 #10 type.registry] 
+New type java.util.Vector<java.lang.Float>
+
+[2022-05-02 18:12:00 #11 type.registry] 
+New type java.util.Vector<java.lang.String>
+
+[2022-05-02 18:12:00 #12 type] 
+Type domain.Event is not enhanced.
+
+[2022-05-02 18:12:00 #13 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2022-05-02 18:12:00 #14 type.registry] 
+New type domain.User
+
+[2022-05-02 18:12:00 #15 type] 
+Type domain.User is not enhanced.
+
+[2022-05-02 18:12:00 #16 type.registry] 
+New type domain.Tarjeta
+
+[2022-05-02 18:12:00 #17 type] 
+Type domain.Tarjeta is not enhanced.
+
+[2022-05-02 18:12:00 #18 type.registry] 
+New type domain.Transaccion
+
+[2022-05-02 18:12:00 #19 type.registry] 
+New type java.util.Vector<domain.Transaccion>
+
+[2022-05-02 18:12:00 #20 type] 
+Type domain.Transaccion is not enhanced.
+
+[2022-05-02 18:12:00 #21 type.registry] 
+New type java.time.LocalDateTime
+
+[2022-05-02 18:12:00 #22 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2022-05-02 18:13:11 #1 store] 
+Database 'C:\Users\Joseba\git\repository\Bets21\src\main\resources\bets.temp' is opened by 5768@DESKTOP-C3VT0J7
+
+[2022-05-02 18:13:11 #2 type.registry] 
+New type domain.Question
+
+[2022-05-02 18:13:11 #3 type] 
+Type domain.Question is not enhanced.
+
+[2022-05-02 18:13:11 #4 type.registry] 
+New type domain.Apuesta
+
+[2022-05-02 18:13:11 #5 type.registry] 
+New type java.util.Vector<domain.Apuesta>
+
+[2022-05-02 18:13:11 #6 type.registry] 
+New type domain.Pronosticos
+
+[2022-05-02 18:13:11 #7 type.registry] 
+New type domain.Event
+
+[2022-05-02 18:13:11 #8 type] 
+Type domain.Apuesta is not enhanced.
+
+[2022-05-02 18:13:11 #9 type] 
+Type domain.Pronosticos is not enhanced.
+
+[2022-05-02 18:13:11 #10 type.registry] 
+New type java.util.Vector<java.lang.Float>
+
+[2022-05-02 18:13:11 #11 type.registry] 
+New type java.util.Vector<java.lang.String>
+
+[2022-05-02 18:13:11 #12 type] 
+Type domain.Event is not enhanced.
+
+[2022-05-02 18:13:11 #13 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2022-05-02 18:13:11 #14 type.registry] 
+New type domain.User
+
+[2022-05-02 18:13:11 #15 type] 
+Type domain.User is not enhanced.
+
+[2022-05-02 18:13:11 #16 type.registry] 
+New type domain.Tarjeta
+
+[2022-05-02 18:13:11 #17 type] 
+Type domain.Tarjeta is not enhanced.
+
+[2022-05-02 18:13:11 #18 type.registry] 
+New type domain.Transaccion
+
+[2022-05-02 18:13:11 #19 type.registry] 
+New type java.util.Vector<domain.Transaccion>
+
+[2022-05-02 18:13:11 #20 type] 
+Type domain.Transaccion is not enhanced.
+
+[2022-05-02 18:13:11 #21 type.registry] 
+New type java.time.LocalDateTime
+
+[2022-05-02 18:13:11 #22 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2022-05-02 18:13:20 #23 *] 
+[ObjectDB 2.6.9_09] Unexpected exception (Error 990)
+  Generated by OpenJDK 64-Bit Server VM 16.0.2 (on Windows 10 10.0).
+Please report this error on http://www.objectdb.com/database/issue/new
+com.objectdb.o.InternalException: null
+com.objectdb.o.InternalException
+	at com.objectdb.o.VUT.e(VUT.java:227)
+	at com.objectdb.o.VUT.e(VUT.java:148)
+	at com.objectdb.o.UMR.t(UMR.java:461)
+	at com.objectdb.o.UMR.r(UMR.java:404)
+	at com.objectdb.o.UML.s(UML.java:492)
+	at com.objectdb.o.MMM.X(MMM.java:825)
+	at com.objectdb.o.OBM.bE(OBM.java:410)
+	at com.objectdb.o.OBM.bE(OBM.java:269)
+	at com.objectdb.jpa.EMImpl.persist(EMImpl.java:416)
+	at dataAccess.DataAccess.addDinero(DataAccess.java:409)
+	at businessLogic.BLFacadeImplementation.anadirDinero(BLFacadeImplementation.java:243)
+	at gui.MiCarteraGUI$3.actionPerformed(MiCarteraGUI.java:113)
+	at java.desktop/javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1972)
+	at java.desktop/javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2313)
+	at java.desktop/javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:405)
+	at java.desktop/javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:262)
+	at java.desktop/javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:279)
+	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6617)
+	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3342)
+	at java.desktop/java.awt.Component.processEvent(Component.java:6382)
+	at java.desktop/java.awt.Container.processEvent(Container.java:2264)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:4993)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2322)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4825)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4934)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4563)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4504)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2308)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2773)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4825)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:772)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:391)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:95)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:743)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:391)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:742)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+
+[2022-05-02 18:16:44 #24 *] 
+[ObjectDB 2.6.9_09] Unexpected exception (Error 990)
+  Generated by OpenJDK 64-Bit Server VM 16.0.2 (on Windows 10 10.0).
+Please report this error on http://www.objectdb.com/database/issue/new
+com.objectdb.o.InternalException: null
+com.objectdb.o.InternalException
+	at com.objectdb.o.VUT.e(VUT.java:227)
+	at com.objectdb.o.VUT.e(VUT.java:148)
+	at com.objectdb.o.UMR.t(UMR.java:461)
+	at com.objectdb.o.UMR.r(UMR.java:404)
+	at com.objectdb.o.UML.s(UML.java:492)
+	at com.objectdb.o.MMM.X(MMM.java:825)
+	at com.objectdb.o.OBM.bE(OBM.java:410)
+	at com.objectdb.o.OBM.bE(OBM.java:269)
+	at com.objectdb.jpa.EMImpl.persist(EMImpl.java:416)
+	at dataAccess.DataAccess.addDinero(DataAccess.java:409)
+	at businessLogic.BLFacadeImplementation.anadirDinero(BLFacadeImplementation.java:243)
+	at gui.MiCarteraGUI$3.actionPerformed(MiCarteraGUI.java:113)
+	at java.desktop/javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1972)
+	at java.desktop/javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2313)
+	at java.desktop/javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:405)
+	at java.desktop/javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:262)
+	at java.desktop/javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:279)
+	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6617)
+	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3342)
+	at java.desktop/java.awt.Component.processEvent(Component.java:6382)
+	at java.desktop/java.awt.Container.processEvent(Container.java:2264)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:4993)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2322)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4825)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4934)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4563)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4504)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2308)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2773)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4825)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:772)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:391)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:95)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:743)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:391)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:742)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+
+[2022-05-02 18:16:49 #25 *] 
+[ObjectDB 2.6.9_09] Unexpected exception (Error 990)
+  Generated by OpenJDK 64-Bit Server VM 16.0.2 (on Windows 10 10.0).
+Please report this error on http://www.objectdb.com/database/issue/new
+com.objectdb.o.InternalException: null
+com.objectdb.o.InternalException
+	at com.objectdb.o.VUT.e(VUT.java:227)
+	at com.objectdb.o.VUT.e(VUT.java:148)
+	at com.objectdb.o.UMR.t(UMR.java:461)
+	at com.objectdb.o.UMR.r(UMR.java:404)
+	at com.objectdb.o.UML.s(UML.java:492)
+	at com.objectdb.o.MMM.X(MMM.java:825)
+	at com.objectdb.o.OBM.bE(OBM.java:410)
+	at com.objectdb.o.OBM.bE(OBM.java:269)
+	at com.objectdb.jpa.EMImpl.persist(EMImpl.java:416)
+	at dataAccess.DataAccess.addDinero(DataAccess.java:409)
+	at businessLogic.BLFacadeImplementation.anadirDinero(BLFacadeImplementation.java:243)
+	at gui.MiCarteraGUI$3.actionPerformed(MiCarteraGUI.java:113)
+	at java.desktop/javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1972)
+	at java.desktop/javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2313)
+	at java.desktop/javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:405)
+	at java.desktop/javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:262)
+	at java.desktop/javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:279)
+	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6617)
+	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3342)
+	at java.desktop/java.awt.Component.processEvent(Component.java:6382)
+	at java.desktop/java.awt.Container.processEvent(Container.java:2264)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:4993)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2322)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4825)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4934)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4563)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4504)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2308)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2773)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4825)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:772)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:391)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:95)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:743)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:391)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:742)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2022-05-02 18:18:57 #1 store] 
+Database 'C:\Users\Joseba\git\repository\Bets21\src\main\resources\bets.temp' is opened by 12144@DESKTOP-C3VT0J7
+
+[2022-05-02 18:18:57 #2 type.registry] 
+New type domain.Question
+
+[2022-05-02 18:18:57 #3 type] 
+Type domain.Question is not enhanced.
+
+[2022-05-02 18:18:57 #4 type.registry] 
+New type domain.Apuesta
+
+[2022-05-02 18:18:57 #5 type.registry] 
+New type java.util.Vector<domain.Apuesta>
+
+[2022-05-02 18:18:57 #6 type.registry] 
+New type domain.Pronosticos
+
+[2022-05-02 18:18:57 #7 type.registry] 
+New type domain.Event
+
+[2022-05-02 18:18:57 #8 type] 
+Type domain.Apuesta is not enhanced.
+
+[2022-05-02 18:18:57 #9 type] 
+Type domain.Pronosticos is not enhanced.
+
+[2022-05-02 18:18:57 #10 type.registry] 
+New type java.util.Vector<java.lang.Float>
+
+[2022-05-02 18:18:57 #11 type.registry] 
+New type java.util.Vector<java.lang.String>
+
+[2022-05-02 18:18:57 #12 type] 
+Type domain.Event is not enhanced.
+
+[2022-05-02 18:18:57 #13 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2022-05-02 18:18:57 #14 type.registry] 
+New type domain.User
+
+[2022-05-02 18:18:57 #15 type] 
+Type domain.User is not enhanced.
+
+[2022-05-02 18:18:57 #16 type.registry] 
+New type domain.Tarjeta
+
+[2022-05-02 18:18:57 #17 type] 
+Type domain.Tarjeta is not enhanced.
+
+[2022-05-02 18:18:57 #18 type.registry] 
+New type domain.Transaccion
+
+[2022-05-02 18:18:57 #19 type.registry] 
+New type java.util.Vector<domain.Transaccion>
+
+[2022-05-02 18:18:57 #20 type] 
+Type domain.Transaccion is not enhanced.
+
+[2022-05-02 18:18:57 #21 type.registry] 
+New type java.time.LocalDateTime
+
+[2022-05-02 18:18:57 #22 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2022-05-02 18:19:05 #23 *] 
+[ObjectDB 2.6.9_09] Unexpected exception (Error 990)
+  Generated by OpenJDK 64-Bit Server VM 16.0.2 (on Windows 10 10.0).
+Please report this error on http://www.objectdb.com/database/issue/new
+com.objectdb.o.InternalException: null
+com.objectdb.o.InternalException
+	at com.objectdb.o.VUT.e(VUT.java:227)
+	at com.objectdb.o.VUT.e(VUT.java:148)
+	at com.objectdb.o.UMR.t(UMR.java:461)
+	at com.objectdb.o.UMR.r(UMR.java:404)
+	at com.objectdb.o.UML.s(UML.java:486)
+	at com.objectdb.o.MMM.X(MMM.java:825)
+	at com.objectdb.o.OBM.bE(OBM.java:410)
+	at com.objectdb.o.OBM.bE(OBM.java:269)
+	at com.objectdb.jpa.EMImpl.persist(EMImpl.java:416)
+	at dataAccess.DataAccess.addDinero(DataAccess.java:409)
+	at businessLogic.BLFacadeImplementation.anadirDinero(BLFacadeImplementation.java:243)
+	at gui.MiCarteraGUI$3.actionPerformed(MiCarteraGUI.java:113)
+	at java.desktop/javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1972)
+	at java.desktop/javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2313)
+	at java.desktop/javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:405)
+	at java.desktop/javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:262)
+	at java.desktop/javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:279)
+	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6617)
+	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3342)
+	at java.desktop/java.awt.Component.processEvent(Component.java:6382)
+	at java.desktop/java.awt.Container.processEvent(Container.java:2264)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:4993)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2322)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4825)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4934)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4563)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4504)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2308)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2773)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4825)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:772)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:391)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:95)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:743)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:391)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:742)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2022-05-02 18:20:09 #1 store] 
+Database 'C:\Users\Joseba\git\repository\Bets21\src\main\resources\bets.temp' is opened by 6952@DESKTOP-C3VT0J7
+
+[2022-05-02 18:20:09 #2 type.registry] 
+New type domain.Question
+
+[2022-05-02 18:20:09 #3 type] 
+Type domain.Question is not enhanced.
+
+[2022-05-02 18:20:09 #4 type.registry] 
+New type domain.Apuesta
+
+[2022-05-02 18:20:09 #5 type.registry] 
+New type java.util.Vector<domain.Apuesta>
+
+[2022-05-02 18:20:09 #6 type.registry] 
+New type domain.Pronosticos
+
+[2022-05-02 18:20:09 #7 type.registry] 
+New type domain.Event
+
+[2022-05-02 18:20:09 #8 type] 
+Type domain.Apuesta is not enhanced.
+
+[2022-05-02 18:20:09 #9 type] 
+Type domain.Pronosticos is not enhanced.
+
+[2022-05-02 18:20:09 #10 type.registry] 
+New type java.util.Vector<java.lang.Float>
+
+[2022-05-02 18:20:09 #11 type.registry] 
+New type java.util.Vector<java.lang.String>
+
+[2022-05-02 18:20:09 #12 type] 
+Type domain.Event is not enhanced.
+
+[2022-05-02 18:20:09 #13 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2022-05-02 18:20:09 #14 type.registry] 
+New type domain.User
+
+[2022-05-02 18:20:09 #15 type] 
+Type domain.User is not enhanced.
+
+[2022-05-02 18:20:09 #16 type.registry] 
+New type domain.Tarjeta
+
+[2022-05-02 18:20:09 #17 type] 
+Type domain.Tarjeta is not enhanced.
+
+[2022-05-02 18:20:09 #18 type.registry] 
+New type domain.Transaccion
+
+[2022-05-02 18:20:09 #19 type.registry] 
+New type java.util.Vector<domain.Transaccion>
+
+[2022-05-02 18:20:09 #20 type] 
+Type domain.Transaccion is not enhanced.
+
+[2022-05-02 18:20:09 #21 type.registry] 
+New type java.time.LocalDateTime
+
+[2022-05-02 18:20:09 #22 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2022-05-02 18:28:15 #1 store] 
+Database 'C:\Users\Joseba\git\repository\Bets21\src\main\resources\bets.temp' is opened by 12644@DESKTOP-C3VT0J7
+
+[2022-05-02 18:28:15 #2 type.registry] 
+New type domain.Question
+
+[2022-05-02 18:28:15 #3 type] 
+Type domain.Question is not enhanced.
+
+[2022-05-02 18:28:15 #4 type.registry] 
+New type domain.Apuesta
+
+[2022-05-02 18:28:15 #5 type.registry] 
+New type java.util.Vector<domain.Apuesta>
+
+[2022-05-02 18:28:15 #6 type.registry] 
+New type domain.Pronosticos
+
+[2022-05-02 18:28:15 #7 type.registry] 
+New type domain.Event
+
+[2022-05-02 18:28:15 #8 type] 
+Type domain.Apuesta is not enhanced.
+
+[2022-05-02 18:28:15 #9 type] 
+Type domain.Pronosticos is not enhanced.
+
+[2022-05-02 18:28:15 #10 type.registry] 
+New type java.util.Vector<java.lang.Float>
+
+[2022-05-02 18:28:15 #11 type.registry] 
+New type java.util.Vector<java.lang.String>
+
+[2022-05-02 18:28:15 #12 type] 
+Type domain.Event is not enhanced.
+
+[2022-05-02 18:28:15 #13 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2022-05-02 18:28:15 #14 type.registry] 
+New type domain.User
+
+[2022-05-02 18:28:15 #15 type] 
+Type domain.User is not enhanced.
+
+[2022-05-02 18:28:15 #16 type.registry] 
+New type domain.Tarjeta
+
+[2022-05-02 18:28:15 #17 type] 
+Type domain.Tarjeta is not enhanced.
+
+[2022-05-02 18:28:15 #18 type.registry] 
+New type domain.Transaccion
+
+[2022-05-02 18:28:15 #19 type.registry] 
+New type java.util.Vector<domain.Transaccion>
+
+[2022-05-02 18:28:15 #20 type] 
+Type domain.Transaccion is not enhanced.
+
+[2022-05-02 18:28:15 #21 type.registry] 
+New type java.time.LocalDateTime
+
+[2022-05-02 18:28:15 #22 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2022-05-02 18:28:32 #23 *] 
+[ObjectDB 2.6.9_09] Unexpected exception (Error 990)
+  Generated by OpenJDK 64-Bit Server VM 16.0.2 (on Windows 10 10.0).
+Please report this error on http://www.objectdb.com/database/issue/new
+com.objectdb.o.InternalException: null
+com.objectdb.o.InternalException
+	at com.objectdb.o.VUT.e(VUT.java:227)
+	at com.objectdb.o.VUT.e(VUT.java:148)
+	at com.objectdb.o.UMR.t(UMR.java:461)
+	at com.objectdb.o.UMR.r(UMR.java:404)
+	at com.objectdb.o.UML.s(UML.java:486)
+	at com.objectdb.o.MMM.X(MMM.java:825)
+	at com.objectdb.o.OBM.bE(OBM.java:410)
+	at com.objectdb.o.OBM.bE(OBM.java:269)
+	at com.objectdb.jpa.EMImpl.persist(EMImpl.java:416)
+	at dataAccess.DataAccess.addDinero(DataAccess.java:409)
+	at businessLogic.BLFacadeImplementation.anadirDinero(BLFacadeImplementation.java:243)
+	at gui.MiCarteraGUI$3.actionPerformed(MiCarteraGUI.java:113)
+	at java.desktop/javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1972)
+	at java.desktop/javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2313)
+	at java.desktop/javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:405)
+	at java.desktop/javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:262)
+	at java.desktop/javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:279)
+	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6617)
+	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3342)
+	at java.desktop/java.awt.Component.processEvent(Component.java:6382)
+	at java.desktop/java.awt.Container.processEvent(Container.java:2264)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:4993)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2322)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4825)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4934)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4563)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4504)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2308)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2773)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4825)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:772)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:391)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:95)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:743)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:391)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:742)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2022-05-02 18:30:56 #1 store] 
+Database 'C:\Users\Joseba\git\repository\Bets21\src\main\resources\bets.temp' is opened by 2804@DESKTOP-C3VT0J7
+
+[2022-05-02 18:30:56 #2 type.registry] 
+New type domain.Question
+
+[2022-05-02 18:30:56 #3 type] 
+Type domain.Question is not enhanced.
+
+[2022-05-02 18:30:56 #4 type.registry] 
+New type domain.Apuesta
+
+[2022-05-02 18:30:56 #5 type.registry] 
+New type java.util.Vector<domain.Apuesta>
+
+[2022-05-02 18:30:56 #6 type.registry] 
+New type domain.Pronosticos
+
+[2022-05-02 18:30:56 #7 type.registry] 
+New type domain.Event
+
+[2022-05-02 18:30:56 #8 type] 
+Type domain.Apuesta is not enhanced.
+
+[2022-05-02 18:30:56 #9 type] 
+Type domain.Pronosticos is not enhanced.
+
+[2022-05-02 18:30:56 #10 type.registry] 
+New type java.util.Vector<java.lang.Float>
+
+[2022-05-02 18:30:56 #11 type.registry] 
+New type java.util.Vector<java.lang.String>
+
+[2022-05-02 18:30:56 #12 type] 
+Type domain.Event is not enhanced.
+
+[2022-05-02 18:30:56 #13 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2022-05-02 18:30:56 #14 type.registry] 
+New type domain.User
+
+[2022-05-02 18:30:56 #15 type] 
+Type domain.User is not enhanced.
+
+[2022-05-02 18:30:56 #16 type.registry] 
+New type domain.Tarjeta
+
+[2022-05-02 18:30:56 #17 type] 
+Type domain.Tarjeta is not enhanced.
+
+[2022-05-02 18:30:56 #18 type.registry] 
+New type domain.Transaccion
+
+[2022-05-02 18:30:56 #19 type.registry] 
+New type java.util.Vector<domain.Transaccion>
+
+[2022-05-02 18:30:56 #20 type] 
+Type domain.Transaccion is not enhanced.
+
+[2022-05-02 18:30:56 #21 type.registry] 
+New type java.time.LocalDateTime
+
+[2022-05-02 18:30:56 #22 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2022-05-02 18:31:14 #23 *] 
+[ObjectDB 2.6.9_09] Unexpected exception (Error 990)
+  Generated by OpenJDK 64-Bit Server VM 16.0.2 (on Windows 10 10.0).
+Please report this error on http://www.objectdb.com/database/issue/new
+com.objectdb.o.InternalException: null
+com.objectdb.o.InternalException
+	at com.objectdb.o.VUT.e(VUT.java:227)
+	at com.objectdb.o.VUT.e(VUT.java:148)
+	at com.objectdb.o.UMR.t(UMR.java:461)
+	at com.objectdb.o.UMR.r(UMR.java:404)
+	at com.objectdb.o.UML.s(UML.java:486)
+	at com.objectdb.o.MMM.X(MMM.java:825)
+	at com.objectdb.o.OBM.bE(OBM.java:410)
+	at com.objectdb.o.OBM.bE(OBM.java:269)
+	at com.objectdb.jpa.EMImpl.persist(EMImpl.java:416)
+	at dataAccess.DataAccess.addDinero(DataAccess.java:409)
+	at businessLogic.BLFacadeImplementation.anadirDinero(BLFacadeImplementation.java:243)
+	at gui.MiCarteraGUI$3.actionPerformed(MiCarteraGUI.java:113)
+	at java.desktop/javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1972)
+	at java.desktop/javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2313)
+	at java.desktop/javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:405)
+	at java.desktop/javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:262)
+	at java.desktop/javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:279)
+	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6617)
+	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3342)
+	at java.desktop/java.awt.Component.processEvent(Component.java:6382)
+	at java.desktop/java.awt.Container.processEvent(Container.java:2264)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:4993)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2322)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4825)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4934)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4563)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4504)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2308)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2773)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4825)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:772)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:391)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:95)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:743)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:391)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:742)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2022-05-02 18:34:00 #1 store] 
+Database 'C:\Users\Joseba\git\repository\Bets21\src\main\resources\bets.temp' is opened by 3252@DESKTOP-C3VT0J7
+
+[2022-05-02 18:34:01 #2 type.registry] 
+New type domain.Question
+
+[2022-05-02 18:34:01 #3 type] 
+Type domain.Question is not enhanced.
+
+[2022-05-02 18:34:01 #4 type.registry] 
+New type domain.Apuesta
+
+[2022-05-02 18:34:01 #5 type.registry] 
+New type java.util.Vector<domain.Apuesta>
+
+[2022-05-02 18:34:01 #6 type.registry] 
+New type domain.Pronosticos
+
+[2022-05-02 18:34:01 #7 type.registry] 
+New type domain.Event
+
+[2022-05-02 18:34:01 #8 type] 
+Type domain.Apuesta is not enhanced.
+
+[2022-05-02 18:34:01 #9 type] 
+Type domain.Pronosticos is not enhanced.
+
+[2022-05-02 18:34:01 #10 type.registry] 
+New type java.util.Vector<java.lang.Float>
+
+[2022-05-02 18:34:01 #11 type.registry] 
+New type java.util.Vector<java.lang.String>
+
+[2022-05-02 18:34:01 #12 type] 
+Type domain.Event is not enhanced.
+
+[2022-05-02 18:34:01 #13 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2022-05-02 18:34:01 #14 type.registry] 
+New type domain.User
+
+[2022-05-02 18:34:01 #15 type] 
+Type domain.User is not enhanced.
+
+[2022-05-02 18:34:01 #16 type.registry] 
+New type domain.Tarjeta
+
+[2022-05-02 18:34:01 #17 type] 
+Type domain.Tarjeta is not enhanced.
+
+[2022-05-02 18:34:01 #18 type.registry] 
+New type domain.Transaccion
+
+[2022-05-02 18:34:01 #19 type.registry] 
+New type java.util.Vector<domain.Transaccion>
+
+[2022-05-02 18:34:01 #20 type] 
+Type domain.Transaccion is not enhanced.
+
+[2022-05-02 18:34:01 #21 type.registry] 
+New type java.time.LocalDateTime
+
+[2022-05-02 18:34:01 #22 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2022-05-02 18:38:09 #1 store] 
+Database 'C:\Users\Joseba\git\repository\Bets21\src\main\resources\bets.temp' is opened by 8880@DESKTOP-C3VT0J7
+
+[2022-05-02 18:38:09 #2 type.registry] 
+New type domain.Question
+
+[2022-05-02 18:38:09 #3 type] 
+Type domain.Question is not enhanced.
+
+[2022-05-02 18:38:09 #4 type.registry] 
+New type domain.Apuesta
+
+[2022-05-02 18:38:09 #5 type.registry] 
+New type java.util.Vector<domain.Apuesta>
+
+[2022-05-02 18:38:09 #6 type.registry] 
+New type domain.Pronosticos
+
+[2022-05-02 18:38:09 #7 type.registry] 
+New type domain.Event
+
+[2022-05-02 18:38:09 #8 type] 
+Type domain.Apuesta is not enhanced.
+
+[2022-05-02 18:38:09 #9 type] 
+Type domain.Pronosticos is not enhanced.
+
+[2022-05-02 18:38:09 #10 type.registry] 
+New type java.util.Vector<java.lang.Float>
+
+[2022-05-02 18:38:09 #11 type.registry] 
+New type java.util.Vector<java.lang.String>
+
+[2022-05-02 18:38:09 #12 type] 
+Type domain.Event is not enhanced.
+
+[2022-05-02 18:38:09 #13 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2022-05-02 18:38:09 #14 type.registry] 
+New type domain.User
+
+[2022-05-02 18:38:09 #15 type] 
+Type domain.User is not enhanced.
+
+[2022-05-02 18:38:09 #16 type.registry] 
+New type domain.Tarjeta
+
+[2022-05-02 18:38:09 #17 type] 
+Type domain.Tarjeta is not enhanced.
+
+[2022-05-02 18:38:09 #18 type.registry] 
+New type domain.Transaccion
+
+[2022-05-02 18:38:09 #19 type.registry] 
+New type java.util.Vector<domain.Transaccion>
+
+[2022-05-02 18:38:09 #20 type] 
+Type domain.Transaccion is not enhanced.
+
+[2022-05-02 18:38:09 #21 type.registry] 
+New type java.util.Vector<java.lang.Object>
+

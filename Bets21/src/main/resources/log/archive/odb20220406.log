@@ -1,0 +1,177 @@
+------------------------------------------------------------------------------------------------------------------------
+
+[2022-04-06 09:49:33 #1 store] 
+Database 'C:\Users\Joseba\git\repository\Bets21\src\main\resources\bets.temp' is opened by 1164@DESKTOP-C3VT0J7
+
+[2022-04-06 09:49:33 #2 type] 
+Type domain.Question is not enhanced.
+
+[2022-04-06 09:49:33 #3 type] 
+Type domain.Apuesta is not enhanced.
+
+[2022-04-06 09:49:33 #4 type] 
+Type domain.Pronosticos is not enhanced.
+
+[2022-04-06 09:49:33 #5 type] 
+Type domain.Event is not enhanced.
+
+[2022-04-06 09:49:33 #6 type] 
+Type domain.User is not enhanced.
+
+[2022-04-06 09:49:33 #7 type] 
+Type domain.Tarjeta is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2022-04-06 10:02:19 #1 store] 
+Database 'C:\Users\Joseba\git\repository\Bets21\src\main\resources\bets.temp' has been recovered (tr. 7-7)
+
+[2022-04-06 10:02:19 #2 store] 
+Database 'C:\Users\Joseba\git\repository\Bets21\src\main\resources\bets.temp' is opened by 4888@DESKTOP-C3VT0J7
+
+[2022-04-06 10:02:19 #3 type] 
+Type domain.Question is not enhanced.
+
+[2022-04-06 10:02:19 #4 type] 
+Type domain.Apuesta is not enhanced.
+
+[2022-04-06 10:02:19 #5 type] 
+Type domain.Pronosticos is not enhanced.
+
+[2022-04-06 10:02:19 #6 type] 
+Type domain.Event is not enhanced.
+
+[2022-04-06 10:02:19 #7 type] 
+Type domain.User is not enhanced.
+
+[2022-04-06 10:02:19 #8 type] 
+Type domain.Tarjeta is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2022-04-06 10:08:13 #1 store] 
+Database 'C:\Users\Joseba\git\repository\Bets21\src\main\resources\bets.temp' is opened by 16720@DESKTOP-C3VT0J7
+
+[2022-04-06 10:08:14 #2 type.registry] 
+New type domain.Question
+
+[2022-04-06 10:08:14 #3 type] 
+Type domain.Question is not enhanced.
+
+[2022-04-06 10:08:14 #4 type.registry] 
+New type domain.Apuesta
+
+[2022-04-06 10:08:14 #5 type.registry] 
+New type java.util.Vector<domain.Apuesta>
+
+[2022-04-06 10:08:14 #6 type.registry] 
+New type domain.Pronosticos
+
+[2022-04-06 10:08:14 #7 type.registry] 
+New type domain.Event
+
+[2022-04-06 10:08:14 #8 type] 
+Type domain.Apuesta is not enhanced.
+
+[2022-04-06 10:08:14 #9 type] 
+Type domain.Pronosticos is not enhanced.
+
+[2022-04-06 10:08:14 #10 type.registry] 
+New type java.util.Vector<java.lang.String>
+
+[2022-04-06 10:08:14 #11 type] 
+Type domain.Event is not enhanced.
+
+[2022-04-06 10:08:14 #12 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2022-04-06 10:08:14 #13 type.registry] 
+New type domain.User
+
+[2022-04-06 10:08:14 #14 type] 
+Type domain.User is not enhanced.
+
+[2022-04-06 10:08:14 #15 type.registry] 
+New type domain.Tarjeta
+
+[2022-04-06 10:08:14 #16 type] 
+Type domain.Tarjeta is not enhanced.
+
+[2022-04-06 10:08:14 #17 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2022-04-06 10:24:31 #1 store] 
+Database 'C:\Users\Joseba\git\repository\Bets21\src\main\resources\bets.temp' has been recovered (tr. 1-25)
+
+[2022-04-06 10:24:31 #2 store] 
+Database 'C:\Users\Joseba\git\repository\Bets21\src\main\resources\bets.temp' is opened by 10848@DESKTOP-C3VT0J7
+
+[2022-04-06 10:24:32 #3 type] 
+Type domain.Question is not enhanced.
+
+[2022-04-06 10:24:32 #4 type] 
+Type domain.Apuesta is not enhanced.
+
+[2022-04-06 10:24:32 #5 type] 
+Type domain.Pronosticos is not enhanced.
+
+[2022-04-06 10:24:32 #6 type] 
+Type domain.Event is not enhanced.
+
+[2022-04-06 10:24:32 #7 type] 
+Type domain.User is not enhanced.
+
+[2022-04-06 10:24:32 #8 type] 
+Type domain.Tarjeta is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2022-04-06 10:27:00 #1 store] 
+Database 'C:\Users\Joseba\git\repository\Bets21\src\main\resources\bets.temp' has been recovered (tr. 26-26)
+
+[2022-04-06 10:27:00 #2 store] 
+Database 'C:\Users\Joseba\git\repository\Bets21\src\main\resources\bets.temp' is opened by 14220@DESKTOP-C3VT0J7
+
+[2022-04-06 10:27:00 #3 type] 
+Type domain.Question is not enhanced.
+
+[2022-04-06 10:27:00 #4 type] 
+Type domain.Apuesta is not enhanced.
+
+[2022-04-06 10:27:00 #5 type] 
+Type domain.Pronosticos is not enhanced.
+
+[2022-04-06 10:27:00 #6 type] 
+Type domain.Event is not enhanced.
+
+[2022-04-06 10:27:00 #7 type] 
+Type domain.User is not enhanced.
+
+[2022-04-06 10:27:00 #8 type] 
+Type domain.Tarjeta is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2022-04-06 10:28:23 #1 store] 
+Database 'C:\Users\Joseba\git\repository\Bets21\src\main\resources\bets.temp' is opened by 12436@DESKTOP-C3VT0J7
+
+[2022-04-06 10:28:23 #2 type] 
+Type domain.Question is not enhanced.
+
+[2022-04-06 10:28:23 #3 type] 
+Type domain.Apuesta is not enhanced.
+
+[2022-04-06 10:28:23 #4 type] 
+Type domain.Pronosticos is not enhanced.
+
+[2022-04-06 10:28:23 #5 type] 
+Type domain.Event is not enhanced.
+
+[2022-04-06 10:28:23 #6 type] 
+Type domain.User is not enhanced.
+
+[2022-04-06 10:28:23 #7 type] 
+Type domain.Tarjeta is not enhanced.
+

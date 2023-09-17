@@ -1,0 +1,32 @@
+------------------------------------------------------------------------------------------------------------------------
+
+[2022-03-11 20:31:01 #1 store] 
+Database 'C:\Users\Joseba\Desktop\Workspace\IS1\Bets21\src\main\resources\bets.temp' is opened by 16788@DESKTOP-C3VT0J7
+
+[2022-03-11 20:31:01 #2 type.registry] 
+New type domain.Question
+
+[2022-03-11 20:31:01 #3 type] 
+Type domain.Question is not enhanced.
+
+[2022-03-11 20:31:01 #4 type.registry] 
+New type java.util.Vector<java.lang.String>
+
+[2022-03-11 20:31:01 #5 type.registry] 
+New type domain.Event
+
+[2022-03-11 20:31:01 #6 type] 
+Type domain.Event is not enhanced.
+
+[2022-03-11 20:31:01 #7 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2022-03-11 20:31:01 #8 type.registry] 
+New type domain.User
+
+[2022-03-11 20:31:01 #9 type] 
+Type domain.User is not enhanced.
+
+[2022-03-11 20:31:01 #10 type.registry] 
+New type java.util.Vector<java.lang.Object>
+

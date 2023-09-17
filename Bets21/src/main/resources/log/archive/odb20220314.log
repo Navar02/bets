@@ -1,0 +1,390 @@
+------------------------------------------------------------------------------------------------------------------------
+
+[2022-03-14 14:39:32 #1 store] 
+Database 'C:\Users\Joseba\Desktop\Workspace\IS1\Bets21\src\main\resources\bets.temp' is opened by 8588@DESKTOP-C3VT0J7
+
+[2022-03-14 14:39:32 #2 type.registry] 
+New type domain.Question
+
+[2022-03-14 14:39:32 #3 type] 
+Type domain.Question is not enhanced.
+
+[2022-03-14 14:39:32 #4 type.registry] 
+New type java.util.Vector<java.lang.String>
+
+[2022-03-14 14:39:32 #5 type.registry] 
+New type domain.Event
+
+[2022-03-14 14:39:32 #6 type] 
+Type domain.Event is not enhanced.
+
+[2022-03-14 14:39:32 #7 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2022-03-14 14:39:32 #8 type.registry] 
+New type domain.User
+
+[2022-03-14 14:39:32 #9 type] 
+Type domain.User is not enhanced.
+
+[2022-03-14 14:39:32 #10 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2022-03-14 14:42:40 #1 store] 
+Database 'C:\Users\Joseba\Desktop\Workspace\IS1\Bets21\src\main\resources\bets.temp' is opened by 12708@DESKTOP-C3VT0J7
+
+[2022-03-14 14:42:40 #2 type.registry] 
+New type domain.Question
+
+[2022-03-14 14:42:40 #3 type] 
+Type domain.Question is not enhanced.
+
+[2022-03-14 14:42:40 #4 type.registry] 
+New type java.util.Vector<java.lang.String>
+
+[2022-03-14 14:42:40 #5 type.registry] 
+New type domain.Event
+
+[2022-03-14 14:42:40 #6 type] 
+Type domain.Event is not enhanced.
+
+[2022-03-14 14:42:40 #7 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2022-03-14 14:42:40 #8 type.registry] 
+New type domain.User
+
+[2022-03-14 14:42:40 #9 type] 
+Type domain.User is not enhanced.
+
+[2022-03-14 14:42:40 #10 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2022-03-14 14:45:24 #1 store] 
+Database 'C:\Users\Joseba\Desktop\Workspace\IS1\Bets21\src\main\resources\bets.temp' is opened by 3532@DESKTOP-C3VT0J7
+
+[2022-03-14 14:45:24 #2 type.registry] 
+New type domain.Question
+
+[2022-03-14 14:45:24 #3 type] 
+Type domain.Question is not enhanced.
+
+[2022-03-14 14:45:24 #4 type.registry] 
+New type java.util.Vector<java.lang.String>
+
+[2022-03-14 14:45:24 #5 type.registry] 
+New type domain.Event
+
+[2022-03-14 14:45:24 #6 type] 
+Type domain.Event is not enhanced.
+
+[2022-03-14 14:45:24 #7 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2022-03-14 14:45:24 #8 type.registry] 
+New type domain.User
+
+[2022-03-14 14:45:24 #9 type] 
+Type domain.User is not enhanced.
+
+[2022-03-14 14:45:24 #10 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2022-03-14 14:47:06 #1 store] 
+Database 'C:\Users\Joseba\Desktop\Workspace\IS1\Bets21\src\main\resources\bets.temp' is opened by 2312@DESKTOP-C3VT0J7
+
+[2022-03-14 14:47:07 #2 type.registry] 
+New type domain.Question
+
+[2022-03-14 14:47:07 #3 type] 
+Type domain.Question is not enhanced.
+
+[2022-03-14 14:47:07 #4 type.registry] 
+New type java.util.Vector<java.lang.String>
+
+[2022-03-14 14:47:07 #5 type.registry] 
+New type domain.Event
+
+[2022-03-14 14:47:07 #6 type] 
+Type domain.Event is not enhanced.
+
+[2022-03-14 14:47:07 #7 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2022-03-14 14:47:07 #8 type.registry] 
+New type domain.User
+
+[2022-03-14 14:47:07 #9 type] 
+Type domain.User is not enhanced.
+
+[2022-03-14 14:47:07 #10 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2022-03-14 14:48:47 #1 store] 
+Database 'C:\Users\Joseba\Desktop\Workspace\IS1\Bets21\src\main\resources\bets.temp' is opened by 12620@DESKTOP-C3VT0J7
+
+[2022-03-14 14:48:47 #2 type.registry] 
+New type domain.Question
+
+[2022-03-14 14:48:47 #3 type] 
+Type domain.Question is not enhanced.
+
+[2022-03-14 14:48:47 #4 type.registry] 
+New type java.util.Vector<java.lang.String>
+
+[2022-03-14 14:48:47 #5 type.registry] 
+New type domain.Event
+
+[2022-03-14 14:48:47 #6 type] 
+Type domain.Event is not enhanced.
+
+[2022-03-14 14:48:47 #7 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2022-03-14 14:48:47 #8 type.registry] 
+New type domain.User
+
+[2022-03-14 14:48:47 #9 type] 
+Type domain.User is not enhanced.
+
+[2022-03-14 14:48:47 #10 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2022-03-14 14:50:59 #1 store] 
+Database 'C:\Users\Joseba\Desktop\Workspace\IS1\Bets21\src\main\resources\bets.temp' is opened by 11444@DESKTOP-C3VT0J7
+
+[2022-03-14 14:51:00 #2 type.registry] 
+New type domain.Question
+
+[2022-03-14 14:51:00 #3 type] 
+Type domain.Question is not enhanced.
+
+[2022-03-14 14:51:00 #4 type.registry] 
+New type java.util.Vector<java.lang.String>
+
+[2022-03-14 14:51:00 #5 type.registry] 
+New type domain.Event
+
+[2022-03-14 14:51:00 #6 type] 
+Type domain.Event is not enhanced.
+
+[2022-03-14 14:51:00 #7 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2022-03-14 14:51:00 #8 type.registry] 
+New type domain.User
+
+[2022-03-14 14:51:00 #9 type] 
+Type domain.User is not enhanced.
+
+[2022-03-14 14:51:00 #10 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2022-03-14 14:51:55 #1 store] 
+Database 'C:\Users\Joseba\Desktop\Workspace\IS1\Bets21\src\main\resources\bets.temp' is opened by 11660@DESKTOP-C3VT0J7
+
+[2022-03-14 14:51:55 #2 type.registry] 
+New type domain.Question
+
+[2022-03-14 14:51:55 #3 type] 
+Type domain.Question is not enhanced.
+
+[2022-03-14 14:51:55 #4 type.registry] 
+New type java.util.Vector<java.lang.String>
+
+[2022-03-14 14:51:55 #5 type.registry] 
+New type domain.Event
+
+[2022-03-14 14:51:55 #6 type] 
+Type domain.Event is not enhanced.
+
+[2022-03-14 14:51:55 #7 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2022-03-14 14:51:55 #8 type.registry] 
+New type domain.User
+
+[2022-03-14 14:51:55 #9 type] 
+Type domain.User is not enhanced.
+
+[2022-03-14 14:51:55 #10 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2022-03-14 14:54:34 #1 store] 
+Database 'C:\Users\Joseba\Desktop\Workspace\IS1\Bets21\src\main\resources\bets.temp' is opened by 9932@DESKTOP-C3VT0J7
+
+[2022-03-14 14:54:34 #2 type.registry] 
+New type domain.Question
+
+[2022-03-14 14:54:34 #3 type] 
+Type domain.Question is not enhanced.
+
+[2022-03-14 14:54:34 #4 type.registry] 
+New type java.util.Vector<java.lang.String>
+
+[2022-03-14 14:54:34 #5 type.registry] 
+New type domain.Event
+
+[2022-03-14 14:54:34 #6 type] 
+Type domain.Event is not enhanced.
+
+[2022-03-14 14:54:34 #7 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2022-03-14 14:54:34 #8 type.registry] 
+New type domain.User
+
+[2022-03-14 14:54:34 #9 type] 
+Type domain.User is not enhanced.
+
+[2022-03-14 14:54:34 #10 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2022-03-14 22:36:02 #1 store] 
+Database 'C:\Users\Joseba\Desktop\Workspace\IS1\Bets21\src\main\resources\bets.temp' is opened by 14148@DESKTOP-C3VT0J7
+
+[2022-03-14 22:36:03 #2 type.registry] 
+New type domain.Question
+
+[2022-03-14 22:36:03 #3 type] 
+Type domain.Question is not enhanced.
+
+[2022-03-14 22:36:03 #4 type.registry] 
+New type java.util.Vector<java.lang.String>
+
+[2022-03-14 22:36:03 #5 type.registry] 
+New type domain.Event
+
+[2022-03-14 22:36:03 #6 type] 
+Type domain.Event is not enhanced.
+
+[2022-03-14 22:36:03 #7 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2022-03-14 22:36:03 #8 type.registry] 
+New type domain.User
+
+[2022-03-14 22:36:03 #9 type] 
+Type domain.User is not enhanced.
+
+[2022-03-14 22:36:03 #10 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2022-03-14 22:41:41 #1 store] 
+Database 'C:\Users\Joseba\Desktop\Workspace\IS1\Bets21\src\main\resources\bets.temp' is opened by 5132@DESKTOP-C3VT0J7
+
+[2022-03-14 22:41:41 #2 type.registry] 
+New type domain.Question
+
+[2022-03-14 22:41:41 #3 type] 
+Type domain.Question is not enhanced.
+
+[2022-03-14 22:41:41 #4 type.registry] 
+New type java.util.Vector<java.lang.String>
+
+[2022-03-14 22:41:41 #5 type.registry] 
+New type domain.Event
+
+[2022-03-14 22:41:41 #6 type] 
+Type domain.Event is not enhanced.
+
+[2022-03-14 22:41:41 #7 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2022-03-14 22:41:41 #8 type.registry] 
+New type domain.User
+
+[2022-03-14 22:41:41 #9 type] 
+Type domain.User is not enhanced.
+
+[2022-03-14 22:41:41 #10 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2022-03-14 22:42:38 #1 store] 
+Database 'C:\Users\Joseba\Desktop\Workspace\IS1\Bets21\src\main\resources\bets.temp' is opened by 4008@DESKTOP-C3VT0J7
+
+[2022-03-14 22:42:39 #2 type] 
+Type domain.Question is not enhanced.
+
+[2022-03-14 22:42:39 #3 type] 
+Type domain.Event is not enhanced.
+
+[2022-03-14 22:42:39 #4 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2022-03-14 22:43:48 #1 store] 
+Database 'C:\Users\Joseba\Desktop\Workspace\IS1\Bets21\src\main\resources\bets.temp' is opened by 7832@DESKTOP-C3VT0J7
+
+[2022-03-14 22:43:48 #2 type] 
+Type domain.Question is not enhanced.
+
+[2022-03-14 22:43:48 #3 type] 
+Type domain.Event is not enhanced.
+
+[2022-03-14 22:43:48 #4 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2022-03-14 22:47:03 #1 store] 
+Database 'C:\Users\Joseba\Desktop\Workspace\IS1\Bets21\src\main\resources\bets.temp' is opened by 2448@DESKTOP-C3VT0J7
+
+[2022-03-14 22:47:03 #2 type] 
+Type domain.Question is not enhanced.
+
+[2022-03-14 22:47:03 #3 type] 
+Type domain.Event is not enhanced.
+
+[2022-03-14 22:47:03 #4 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2022-03-14 22:48:01 #1 store] 
+Database 'C:\Users\Joseba\Desktop\Workspace\IS1\Bets21\src\main\resources\bets.temp' is opened by 12536@DESKTOP-C3VT0J7
+
+[2022-03-14 22:48:01 #2 type] 
+Type domain.Question is not enhanced.
+
+[2022-03-14 22:48:01 #3 type] 
+Type domain.Event is not enhanced.
+
+[2022-03-14 22:48:01 #4 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2022-03-14 22:48:33 #1 store] 
+Database 'C:\Users\Joseba\Desktop\Workspace\IS1\Bets21\src\main\resources\bets.temp' is opened by 13500@DESKTOP-C3VT0J7
+
+[2022-03-14 22:48:33 #2 type] 
+Type domain.Question is not enhanced.
+
+[2022-03-14 22:48:33 #3 type] 
+Type domain.Event is not enhanced.
+
+[2022-03-14 22:48:33 #4 type] 
+Type domain.User is not enhanced.
+
