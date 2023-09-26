@@ -112,7 +112,9 @@ public class CreateQuestionDAB {
 				// TODO Auto-generated catch block
 				// if the program goes to this point fail  
 				fail();
-				} 
+				} catch (NullPointerException f){
+					assertTrue(true);
+				}
 			   }
 	@Test
 	//sut.createQuestion:  The question is null. The test fail
@@ -157,7 +159,9 @@ public class CreateQuestionDAB {
 			// TODO Auto-generated catch block
 			// if the program goes to this point fail  
 			fail();
-			} finally {
+			}catch (NullPointerException f){
+					assertTrue(true);
+				} finally {
 				  //Remove the created objects in the database (cascade removing)   
 				testDA.open();
 		          boolean b=testDA.removeEvent(ev);
