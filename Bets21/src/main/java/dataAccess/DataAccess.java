@@ -68,27 +68,27 @@ public class DataAccess  {
 			int year=today.get(Calendar.YEAR);
 			if (month==12) { month=0; year+=1;}  
 
-			Event ev1=new Event(1, "Atlético-Athletic", UtilDate.newDate(year,month,17));
+			Event ev1=new Event(1, "Atlï¿½tico-Athletic", UtilDate.newDate(year,month,17));
 			Event ev2=new Event(2, "Eibar-Barcelona", UtilDate.newDate(year,month,17));
 			Event ev3=new Event(3, "Getafe-Celta", UtilDate.newDate(year,month,17));
-			Event ev4=new Event(4, "Alavés-Deportivo", UtilDate.newDate(year,month,17));
+			Event ev4=new Event(4, "Alavï¿½s-Deportivo", UtilDate.newDate(year,month,17));
 			Event ev5=new Event(5, "Espanyol-Villareal", UtilDate.newDate(year,month,17));
 			Event ev6=new Event(6, "Las Palmas-Sevilla", UtilDate.newDate(year,month,17));
 			Event ev7=new Event(7, "Malaga-Valencia", UtilDate.newDate(year,month,17));
-			Event ev8=new Event(8, "Girona-Leganés", UtilDate.newDate(year,month,17));
+			Event ev8=new Event(8, "Girona-Leganï¿½s", UtilDate.newDate(year,month,17));
 			Event ev9=new Event(9, "Real Sociedad-Levante", UtilDate.newDate(year,month,17));
 			Event ev10=new Event(10, "Betis-Real Madrid", UtilDate.newDate(year,month,17));
 
-			Event ev11=new Event(11, "Atlético-Athletic", UtilDate.newDate(year,month,1));
+			Event ev11=new Event(11, "Atlï¿½tico-Athletic", UtilDate.newDate(year,month,1));
 			Event ev12=new Event(12, "Eibar-Barcelona", UtilDate.newDate(year,month,1));
 			Event ev13=new Event(13, "Getafe-Celta", UtilDate.newDate(year,month,1));
-			Event ev14=new Event(14, "Alavés-Deportivo", UtilDate.newDate(year,month,1));
+			Event ev14=new Event(14, "Alavï¿½s-Deportivo", UtilDate.newDate(year,month,1));
 			Event ev15=new Event(15, "Espanyol-Villareal", UtilDate.newDate(year,month,1));
 			Event ev16=new Event(16, "Las Palmas-Sevilla", UtilDate.newDate(year,month,1));
 
 
-			Event ev17=new Event(17, "Málaga-Valencia", UtilDate.newDate(year,month+1,28));
-			Event ev18=new Event(18, "Girona-Leganés", UtilDate.newDate(year,month+1,28));
+			Event ev17=new Event(17, "Mï¿½laga-Valencia", UtilDate.newDate(year,month+1,28));
+			Event ev18=new Event(18, "Girona-Leganï¿½s", UtilDate.newDate(year,month+1,28));
 			Event ev19=new Event(19, "Real Sociedad-Levante", UtilDate.newDate(year,month+1,28));
 			Event ev20=new Event(20, "Betis-Real Madrid", UtilDate.newDate(year,month+1,28));
 
@@ -106,18 +106,18 @@ public class DataAccess  {
 			Question q12;
 
 			if (Locale.getDefault().equals(new Locale("es"))) {
-				q1=ev1.addQuestion("¿Quién ganará el partido?",1);
-				q2=ev1.addQuestion("¿Quién meterá el primer gol?",2);
-				q3=ev11.addQuestion("¿Quien ganará el partido?",1);
-				q4=ev11.addQuestion("¿Cuantos goles se marcarán?",2);
-				q5=ev17.addQuestion("¿Quién ganará el partido?",1);
-				q6=ev17.addQuestion("¿Habrá goles en la primera parte?",2);
-				q7=ev2.addQuestion("¿Quién ganará el partido?",1);
-				q8=ev2.addQuestion("¿Quién meterá el primer gol?",2);
-				q9=ev3.addQuestion("¿Quién ganará el partido?",1);
-				q10=ev3.addQuestion("¿Quién meterá el primer gol?",2);
-				q11=ev4.addQuestion("¿Quién ganará el partido?",1);
-				q12=ev4.addQuestion("¿Quién meterá el primer gol?",2);
+				q1=ev1.addQuestion("ï¿½Quiï¿½n ganarï¿½ el partido?",1);
+				q2=ev1.addQuestion("ï¿½Quiï¿½n meterï¿½ el primer gol?",2);
+				q3=ev11.addQuestion("ï¿½Quien ganarï¿½ el partido?",1);
+				q4=ev11.addQuestion("ï¿½Cuantos goles se marcarï¿½n?",2);
+				q5=ev17.addQuestion("ï¿½Quiï¿½n ganarï¿½ el partido?",1);
+				q6=ev17.addQuestion("ï¿½Habrï¿½ goles en la primera parte?",2);
+				q7=ev2.addQuestion("ï¿½Quiï¿½n ganarï¿½ el partido?",1);
+				q8=ev2.addQuestion("ï¿½Quiï¿½n meterï¿½ el primer gol?",2);
+				q9=ev3.addQuestion("ï¿½Quiï¿½n ganarï¿½ el partido?",1);
+				q10=ev3.addQuestion("ï¿½Quiï¿½n meterï¿½ el primer gol?",2);
+				q11=ev4.addQuestion("ï¿½Quiï¿½n ganarï¿½ el partido?",1);
+				q12=ev4.addQuestion("ï¿½Quiï¿½n meterï¿½ el primer gol?",2);
 			}
 			else if (Locale.getDefault().equals(new Locale("en"))) {
 				q1=ev1.addQuestion("Who will win the match?",1);
@@ -346,7 +346,9 @@ public class DataAccess  {
 	 */
 	public Question createQuestion(Event event, String question, float betMinimum) throws  QuestionAlreadyExist {
 		System.out.println(">> DataAccess: createQuestion=> event= "+event+" question= "+question+" betMinimum="+betMinimum);
-
+		if(event==null) {
+			throw new NullPointerException("Error evento nulo");
+		}
 		Event ev = db.find(Event.class, event.getEventNumber());
 
 		if (ev.DoesQuestionExists(question)) throw new QuestionAlreadyExist(ResourceBundle.getBundle("Etiquetas").getString("ErrorQueryAlreadyExist"));
@@ -469,7 +471,7 @@ public class DataAccess  {
 		usuario.setTarjeta(t);
 		db.persist(t);
 		db.persist(usuario);
-		System.out.println("Usuario añadido");
+		System.out.println("Usuario aï¿½adido");
 		db.getTransaction().commit();
 		System.out.println("DataBase closed");
 		return nombUsuario + ", " + password;
