@@ -3,7 +3,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>navar02</groupId>
-	<artifactId>Bets21</artifactId>
+	<artifactId>bets</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<build>
 		<plugins>
@@ -64,7 +64,7 @@
 		<sonar.organization>navar02</sonar.organization>
 		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
 		<sonar.projectKey>Navar02_bets</sonar.projectKey>
-		<sonar.login>2e60002da248e1710aa7fa62b94ab7cee7ebf8b2</sonar.login>
+		<sonar.login>dcdd6e760c6d49d7b340ad26392a27875fec31ab</sonar.login>
 	</properties>
 	<!--  https://mvnrepository.com/artifact/junit/junit  -->
 	<dependencies>
