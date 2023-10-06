@@ -64,7 +64,7 @@
 		<sonar.organization>navar02</sonar.organization>
 		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
 		<sonar.projectKey>Navar02_bets</sonar.projectKey>
-		<sonar.login>12c1b0828e1a416c52337ba36f1e663757ba6262</sonar.login>
+		<sonar.login>2e60002da248e1710aa7fa62b94ab7cee7ebf8b2</sonar.login>
 	</properties>
 	<!--  https://mvnrepository.com/artifact/junit/junit  -->
 	<dependencies>
