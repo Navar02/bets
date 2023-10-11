@@ -189,10 +189,8 @@ public class BLFacadeImplementation  implements BLFacade {
 	public Vector<String> getPronosticosPregunta(int num){
 		dbManager.open(false);
 		Vector<String>qVector= new Vector<String>();
-		if(dbManager.getQuestionByNum(num)!=null) {
-			if(dbManager.getQuestionByNum(num).getPronosticos()!=null) {
-				qVector=dbManager.getPronosticosPregunta(num);
-			}
+		if(dbManager.getQuestionByNum(num)!=null && dbManager.getQuestionByNum(num).getPronosticos()!=null) {
+			qVector=dbManager.getPronosticosPregunta(num);
 		}
 		dbManager.close();
 		return qVector;
