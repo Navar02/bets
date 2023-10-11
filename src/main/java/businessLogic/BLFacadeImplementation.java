@@ -3,7 +3,7 @@ package businessLogic;
 import java.util.Date;
 import java.util.ResourceBundle;
 import java.util.Vector;
-
+import java.util.logging.Logger;
 import javax.jws.WebMethod;
 import javax.jws.WebService;
 
@@ -25,9 +25,10 @@ import exceptions.QuestionAlreadyExist;
 @WebService(endpointInterface = "businessLogic.BLFacade")
 public class BLFacadeImplementation  implements BLFacade {
 	DataAccess dbManager;
+	private static final Logger logger = Logger.getLogger(BLFacadeImplementation.class.getName());
 	String init="initialize";
 	public BLFacadeImplementation()  {		
-		System.out.println("Creating BLFacadeImplementation instance");
+		logger.info("Creating BLFacadeImplementation instance");
 		ConfigXML c=ConfigXML.getInstance();
 		
 		if (c.getDataBaseOpenMode().equals(init)) {
