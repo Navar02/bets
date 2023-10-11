@@ -179,7 +179,7 @@ public class CreateEventGUI extends JFrame {
 							modelEvents.addElement(ev);
 						jComboBoxEvents.repaint();
 
-						if (events.size() == 0)
+						if (events.isEmpty())
 							jButtonCreate.setEnabled(true);
 						else
 							jButtonCreate.setEnabled(true);
