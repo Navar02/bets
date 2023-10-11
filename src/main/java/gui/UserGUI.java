@@ -21,7 +21,7 @@ import javax.swing.JPanel;
 import javax.swing.SwingConstants;
 import javax.swing.border.EmptyBorder;
 
-import businessLogic.BLFacade;
+import businesslogic.BLFacade;
 import domain.Event;
 import domain.User;
 
@@ -127,7 +127,7 @@ public class UserGUI extends JFrame {
 		btnLogout.setBounds(334, 338, 177, 40);
 		contentPane.add(btnLogout);
 		
-		anadirDineroBtn = new JButton("Añadir dinero a la cartera");
+		anadirDineroBtn = new JButton("Aï¿½adir dinero a la cartera");
 		anadirDineroBtn.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				JFrame a= new MiCarteraGUI(userName);
@@ -196,7 +196,7 @@ public class UserGUI extends JFrame {
 		
 		User usern= facade.getUserByName(userName);
 		float money= usern.getTarjeta().getDinero();
-		monneyLbl = new JLabel(money+"€", SwingConstants.CENTER);
+		monneyLbl = new JLabel(money+"ï¿½", SwingConstants.CENTER);
 		monneyLbl.setBounds(484, 40, 113, 13);
 		contentPane.add(monneyLbl);
 		

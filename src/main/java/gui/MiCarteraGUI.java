@@ -12,7 +12,7 @@ import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
 
-import businessLogic.BLFacade;
+import businesslogic.BLFacade;
 
 import javax.swing.JLabel;
 import javax.swing.JTextField;
@@ -81,11 +81,11 @@ public class MiCarteraGUI extends JFrame {
 		textField.setBounds(111, 67, 96, 19);
 		contentPane.add(textField);
 
-		JLabel lblNewLabel = new JLabel("¿Cuanto dinero deseas añadir a tu cartera?");
+		JLabel lblNewLabel = new JLabel("ï¿½Cuanto dinero deseas aï¿½adir a tu cartera?");
 		lblNewLabel.setBounds(94, 123, 263, 13);
 		contentPane.add(lblNewLabel);
 
-		JLabel cantidadLbl = new JLabel("Introduce la cantidad que desea añadir a su cartera: ");
+		JLabel cantidadLbl = new JLabel("Introduce la cantidad que desea aï¿½adir a su cartera: ");
 		cantidadLbl.setBounds(10, 155, 300, 13);
 		contentPane.add(cantidadLbl);
 
@@ -105,7 +105,7 @@ public class MiCarteraGUI extends JFrame {
 		contentPane.add(textField_1);
 		textField_1.setColumns(10);
 
-		anadirSaldoBtn = new JButton("Añadir Saldo");
+		anadirSaldoBtn = new JButton("Aï¿½adir Saldo");
 		anadirSaldoBtn.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 //				try {
@@ -113,13 +113,13 @@ public class MiCarteraGUI extends JFrame {
 						int dinero= Integer.parseInt(textField_1.getText());
 						facade.anadirDinero(userName, dinero, false);
 						errorLbl.setForeground(Color.GREEN);
-						errorLbl.setText("El saldo se ha añadido correctamente.");
+						errorLbl.setText("El saldo se ha aï¿½adido correctamente.");
 						textField.setText("" + facade.getUserByName(userName).getTarjeta().getDinero());
 					}else {
-						errorLbl.setText("Añade una cantidad entre 1€ hasta 999€ .");
+						errorLbl.setText("Aï¿½ade una cantidad entre 1ï¿½ hasta 999ï¿½ .");
 					}
 //				}catch(Exception ee) {
-//					errorLbl.setText("Debe introducir una cantidad antes de continuar con la operación.");
+//					errorLbl.setText("Debe introducir una cantidad antes de continuar con la operaciï¿½n.");
 //				}
 			}
 		});

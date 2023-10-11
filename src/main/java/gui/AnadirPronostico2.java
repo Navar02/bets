@@ -16,7 +16,7 @@ import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
 
-import businessLogic.BLFacade;
+import businesslogic.BLFacade;
 
 import javax.swing.JLabel;
 import javax.swing.JTextField;
@@ -155,7 +155,7 @@ public class AnadirPronostico2 extends JFrame {
 					}
 					if(vector.size()>1 && vector2.size()>1) {
 						facade.anadirPronostico(num, vector, vector2);
-						lblNewLabel.setText("Pronostico añadido de forma correcta");
+						lblNewLabel.setText("Pronostico aï¿½adido de forma correcta");
 						jButtonClose_actionPerformed(e);
 					}
 				}catch(Exception ee) {

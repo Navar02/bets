@@ -11,7 +11,7 @@ import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
 
-import businessLogic.BLFacade;
+import businesslogic.BLFacade;
 import domain.User;
 
 import javax.swing.JTextField;
@@ -127,7 +127,7 @@ public class EnviarMotivoVetoGUI extends JFrame {
        // Sender's email ID needs to be mentioned
        String from = "therealcodemonkeys@gmail.com";
        
-       //Contraseña del emisor
+       //Contraseï¿½a del emisor
        String password= "6kB25Zk*$~6kxT?/";
 
        // Assuming you are sending email from through gmails smtp
@@ -141,7 +141,7 @@ public class EnviarMotivoVetoGUI extends JFrame {
 		String mensaje= "Hola " + userName +", \n " + texto + " \n Atte: CodeMonkeys";
 		
 		
-		//Configuración del server
+		//Configuraciï¿½n del server
 		propiedad.put("mail.smtp.host", host);
 		propiedad.put("mail.smtp.port", "465");
 		propiedad.put("mail.smtp.ssl.enable", "true");

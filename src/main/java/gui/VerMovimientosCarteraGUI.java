@@ -16,7 +16,7 @@ import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
 import javax.swing.table.DefaultTableModel;
 
-import businessLogic.BLFacade;
+import businesslogic.BLFacade;
 import domain.Apuesta;
 import domain.Transaccion;
 
@@ -126,7 +126,7 @@ public class VerMovimientosCarteraGUI extends JFrame {
 			tableApuestas.getColumnModel().getColumn(2).setPreferredWidth(150);
 		}else {
 			lblNewLabel.setForeground(Color.RED);
-			lblNewLabel.setText("No tiene ninguna transacción realizada.");
+			lblNewLabel.setText("No tiene ninguna transacciï¿½n realizada.");
 		}
 		
 		

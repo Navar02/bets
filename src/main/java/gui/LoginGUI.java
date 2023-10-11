@@ -10,7 +10,7 @@ import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
 
-import businessLogic.BLFacade;
+import businesslogic.BLFacade;
 import domain.User;
 
 import javax.swing.JLabel;
@@ -98,7 +98,7 @@ public class LoginGUI extends JFrame {
 				if(pwd.length()==0) {
 					errorLabel.setText("Rellena todos los campos antes de continuar.");
 				}else if(facade.userExist(usuario) && !facade.getUserByName(usuario).getVeto()) {
-					User user= facade.getUserByName(usuario); // Mandar el nombre del usuario y la contraseña
+					User user= facade.getUserByName(usuario); // Mandar el nombre del usuario y la contraseï¿½a
 					if(user.getPassword().equals(pwd)) {
 						if(user.isAdmin()) {
 							JFrame a= new AdminGUI(usuario);
@@ -136,7 +136,7 @@ public class LoginGUI extends JFrame {
 		errorLabel.setBounds(65, 151, 313, 13);
 		contentPane.add(errorLabel);
 		
-		rdbtnNewRadioButton = new JRadioButton("¿Has olvidado la contraseña?");
+		rdbtnNewRadioButton = new JRadioButton("ï¿½Has olvidado la contraseï¿½a?");
 		rdbtnNewRadioButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				JFrame a = new PasswordOlvidadaGUI();

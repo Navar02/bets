@@ -13,8 +13,8 @@ import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
 
-import businessLogic.BLFacade;
-import businessLogic.BLFacadeImplementation;
+import businesslogic.BLFacade;
+import businesslogic.BLFacadeImplementation;
 import dataAccess.DataAccess;
 import domain.User;
 
@@ -110,8 +110,8 @@ public class RegisterGUI extends JFrame {
 				String nTarjeta= numTarjeta.getText();
 				String correo= correoTextField.getText();
 				if(pwd.equals(pwd1) && pwd.length()>0 && pwd1.length()>0 && !facade.userExist(usuario) && nTarjeta.length()==16 && !facade.tarjetaExist(nTarjeta)) {
-					String user= facade.anadirUsuario(usuario, pwd, nTarjeta, correo); // Mandar el nombre del usuario y la contraseña
-					System.out.println("El usuario: "+ user + " se ha añadido.");
+					String user= facade.anadirUsuario(usuario, pwd, nTarjeta, correo); // Mandar el nombre del usuario y la contraseï¿½a
+					System.out.println("El usuario: "+ user + " se ha aï¿½adido.");
 					jButtonClose_actionPerformed(e);
 					JFrame a= new LoginGUI();
 					a.setVisible(true);
@@ -121,10 +121,10 @@ public class RegisterGUI extends JFrame {
 				else if(pwd.length()==0 || pwd1.length()==0) {
 					errorLabel.setText("Rellena todos los campos antes de continuar.");
 				}else if(nTarjeta.length()!=16) {
-					errorLabel.setText("El número de la tarjete debe contener 16 numeros.");
+					errorLabel.setText("El nï¿½mero de la tarjete debe contener 16 numeros.");
 				}else if(facade.tarjetaExist(nTarjeta)) {
 					errorLabel.setText("Ya existe un user con dicha tarjeta.");
-					errorLabel2.setText("Introduce tu verdadero número de tarjeta por favor.");
+					errorLabel2.setText("Introduce tu verdadero nï¿½mero de tarjeta por favor.");
 				}else {
 					errorLabel.setText("Las password son diferentes.");
 				}

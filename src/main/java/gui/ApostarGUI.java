@@ -12,7 +12,7 @@ import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
 
-import businessLogic.BLFacade;
+import businesslogic.BLFacade;
 import domain.Apuesta;
 import domain.Question;
 
@@ -77,7 +77,7 @@ public class ApostarGUI extends JFrame {
 
 		setBusinessLogic(MainGUI.getBusinessLogic());
 
-		JLabel questionLabel = new JLabel("Descipción de la pregunta: ");
+		JLabel questionLabel = new JLabel("Descipciï¿½n de la pregunta: ");
 		questionLabel.setBounds(10, 10, 223, 13);
 		contentPane.add(questionLabel);
 
@@ -86,7 +86,7 @@ public class ApostarGUI extends JFrame {
 		questDescriptionPane.setBounds(109, 33, 445, 25);
 		contentPane.add(questDescriptionPane);
 
-		JLabel minBetLbl = new JLabel("Apuesta mínima: ");
+		JLabel minBetLbl = new JLabel("Apuesta mï¿½nima: ");
 		minBetLbl.setBounds(10, 244, 100, 13);
 		contentPane.add(minBetLbl);
 
@@ -178,7 +178,7 @@ public class ApostarGUI extends JFrame {
 						System.out.println(pronostico + cantidadApuesta);
 						facade.apostar(userName, qNum, cantidadApuesta, pronostico);
 						errorLbl.setForeground(Color.GREEN);
-						errorLbl.setText("La apuesta se ha añadido correctamente");
+						errorLbl.setText("La apuesta se ha aï¿½adido correctamente");
 					}else if(Float.parseFloat(textField.getText())> facade.getUserByName(userName).getTarjeta().getDinero()) {
 						errorLbl.setForeground(Color.RED);
 						errorLbl.setText("No tiene dinero suficiente para realizar esta apuesta.");
@@ -189,7 +189,7 @@ public class ApostarGUI extends JFrame {
 					
 					else {
 						errorLbl.setForeground(Color.RED);
-						errorLbl.setText("Tu apuesta no puede ser menor que el precio mínimo.");
+						errorLbl.setText("Tu apuesta no puede ser menor que el precio mï¿½nimo.");
 					}
 				}else if(facade.getQuestionByNum(qNum).getResult()!=null) {
 					errorLbl.setForeground(Color.RED);

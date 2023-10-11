@@ -1,11 +1,11 @@
 package gui;
 
-import businessLogic.BLFacade;
 import configuration.UtilDate;
 
 import com.sun.mail.smtp.SMTPOutputStream;
 import com.toedter.calendar.JCalendar;
 
+import businesslogic.BLFacade;
 import domain.Apuesta;
 import domain.Question;
 import domain.User;
@@ -314,14 +314,14 @@ public class CloseEventGUI extends JFrame {
 							num2++;
 						}
 						errorLbl.setForeground(Color.GREEN);
-						errorLbl.setText("El resultado se ha añadido correctamente.");
+						errorLbl.setText("El resultado se ha aï¿½adido correctamente.");
 					}else if(facade.getQuestionByNum(q).getResult()!=null){
 						errorLbl.setForeground(Color.RED);
 						errorLbl.setText("El resultado de esta pregunta ya esta disponible.");
 						
 					}else{
 						errorLbl.setForeground(Color.RED);
-						errorLbl.setText("No existe ningun pronostico así para esta pregunta.");
+						errorLbl.setText("No existe ningun pronostico asï¿½ para esta pregunta.");
 					}
 				}else {
 					errorLbl.setForeground(Color.RED);

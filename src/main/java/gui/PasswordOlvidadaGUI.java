@@ -12,7 +12,7 @@ import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
 
-import businessLogic.BLFacade;
+import businesslogic.BLFacade;
 import domain.User;
 
 import javax.swing.JLabel;
@@ -136,7 +136,7 @@ public class PasswordOlvidadaGUI extends JFrame {
 		btnCerrar.setBounds(323, 264, 204, 32);
 		contentPane.add(btnCerrar);
 		
-		JLabel lblNewLabel_1 = new JLabel("¿Has olvidado tu cantraseña?", SwingConstants.CENTER);
+		JLabel lblNewLabel_1 = new JLabel("ï¿½Has olvidado tu cantraseï¿½a?", SwingConstants.CENTER);
 		lblNewLabel_1.setFont(new Font("Tahoma 10", Font.BOLD, 20));
 		lblNewLabel_1.setBounds(103, 10, 393, 24);
 		contentPane.add(lblNewLabel_1);
@@ -154,7 +154,7 @@ public class PasswordOlvidadaGUI extends JFrame {
         // Sender's email ID needs to be mentioned
         String from = "therealcodemonkeys@gmail.com";
         
-        //Contraseña del emisor
+        //Contraseï¿½a del emisor
         String password= "6kB25Zk*$~6kxT?/";
 
         // Assuming you are sending email from through gmails smtp
@@ -163,13 +163,13 @@ public class PasswordOlvidadaGUI extends JFrame {
 		//Obtenemos las propiedades del sistema
 		Properties propiedad= new Properties();
 		
-		String asunto= "Contraseña olvidada";
+		String asunto= "Contraseï¿½a olvidada";
 		
-		String mensaje= "Hola " + userName +", \n Esta es la contraseña que"
+		String mensaje= "Hola " + userName +", \n Esta es la contraseï¿½a que"
 			+ "tenia asociada a su cuenta: " + pwd + "\n \n Atte: CodeMonkeys";
 		
 		
-		//Configuración del server
+		//Configuraciï¿½n del server
 		propiedad.put("mail.smtp.host", host);
 		propiedad.put("mail.smtp.port", "465");
 		propiedad.put("mail.smtp.ssl.enable", "true");

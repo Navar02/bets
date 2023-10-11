@@ -15,7 +15,7 @@ import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
 import javax.swing.filechooser.FileNameExtensionFilter;
 
-import businessLogic.BLFacade;
+import businesslogic.BLFacade;
 
 import javax.swing.JLabel;
 import javax.swing.JTextField;
@@ -88,7 +88,7 @@ public class ImportImageGUI extends JFrame implements ActionListener {
 		imagenLbl1.setBounds(26, 142, 144, 13);
 		contentPane.add(imagenLbl1);
 		
-		JLabel lblNewLabel_1 = new JLabel("La imagen debe ser 50x50, de extensión .png", SwingConstants.CENTER);
+		JLabel lblNewLabel_1 = new JLabel("La imagen debe ser 50x50, de extensiï¿½n .png", SwingConstants.CENTER);
 //		lblNewLabel_1.setFont(new Font("Tahoma 10", Font.BOLD, 20));
 		lblNewLabel_1.setBounds(10, 41, 416, 19);
 		contentPane.add(lblNewLabel_1);
@@ -136,7 +136,7 @@ public class ImportImageGUI extends JFrame implements ActionListener {
 		errorLbl.setBounds(23, 199, 403, 13);
 		contentPane.add(errorLbl);
 		
-		lblNewLabel_2 = new JLabel("También debe ir junto con la extensión .png al final", SwingConstants.CENTER);
+		lblNewLabel_2 = new JLabel("Tambiï¿½n debe ir junto con la extensiï¿½n .png al final", SwingConstants.CENTER);
 		lblNewLabel_2.setBounds(10, 66, 416, 19);
 		contentPane.add(lblNewLabel_2);
 		

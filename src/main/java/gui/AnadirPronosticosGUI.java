@@ -1,9 +1,10 @@
 package gui;
 
-import businessLogic.BLFacade;
 import configuration.UtilDate;
 
 import com.toedter.calendar.JCalendar;
+
+import businesslogic.BLFacade;
 import domain.Question;
 import javax.swing.*;
 import java.awt.*;
@@ -79,7 +80,7 @@ public class AnadirPronosticosGUI extends JFrame {
 		setBusinessLogic(MainGUI.getBusinessLogic());
 		this.getContentPane().setLayout(null);
 		this.setSize(new Dimension(700, 500));
-		this.setTitle("Añadir Pronostico");
+		this.setTitle("Aï¿½adir Pronostico");
 
 		jLabelEventDate.setBounds(new Rectangle(40, 15, 140, 25));
 		jLabelQueries.setBounds(138, 248, 406, 14);

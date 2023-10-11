@@ -18,7 +18,7 @@ import javax.swing.border.EmptyBorder;
 import javax.swing.table.DefaultTableModel;
 import javax.swing.table.TableRowSorter;
 
-import businessLogic.BLFacade;
+import businesslogic.BLFacade;
 import domain.Apuesta;
 import domain.Transaccion;
 
@@ -95,7 +95,7 @@ public class UsersMasGananciasGUI extends JFrame {
 			new Object[][] {
 			},
 			new String[] {
-				"Usuario", "Ganacia Total", "Número de Apuestas Realizadas"
+				"Usuario", "Ganacia Total", "Nï¿½mero de Apuestas Realizadas"
 			}
 		));
 		tableApuestas.setAutoCreateRowSorter(true);
@@ -152,7 +152,7 @@ public class UsersMasGananciasGUI extends JFrame {
 			tableApuestas.getColumnModel().getColumn(2).setPreferredWidth(150);
 		}else {
 			lblNewLabel.setForeground(Color.RED);
-			lblNewLabel.setText("No tiene ninguna transacción realizada.");
+			lblNewLabel.setText("No tiene ninguna transacciï¿½n realizada.");
 		}
 		
 		
@@ -182,7 +182,7 @@ public class UsersMasGananciasGUI extends JFrame {
 		closeBtn.setBounds(212, 325, 132, 25);
 		contentPane.add(closeBtn);
 		
-		JLabel helloLbl = new JLabel("Usuarios con Más Ganancias", SwingConstants.CENTER);
+		JLabel helloLbl = new JLabel("Usuarios con Mï¿½s Ganancias", SwingConstants.CENTER);
 		helloLbl.setFont(new Font("Tahoma 10", Font.BOLD, 20));
 		helloLbl.setBounds(86, 10, 392, 30);
 		contentPane.add(helloLbl);

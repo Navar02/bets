@@ -12,7 +12,7 @@ import javax.swing.JPanel;
 import javax.swing.SwingConstants;
 import javax.swing.border.EmptyBorder;
 
-import businessLogic.BLFacade;
+import businesslogic.BLFacade;
 
 import javax.swing.JLabel;
 import javax.swing.JTextField;
@@ -60,20 +60,20 @@ public class CambiarPasswordGUI extends JFrame {
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
-		this.setTitle("Cambiar Contraseña");
+		this.setTitle("Cambiar Contraseï¿½a");
 		
 		setBusinessLogic(MainGUI.getBusinessLogic());
 		
-		JLabel titlelbl = new JLabel("Cambiar Contraseña", SwingConstants.CENTER);
+		JLabel titlelbl = new JLabel("Cambiar Contraseï¿½a", SwingConstants.CENTER);
 		titlelbl.setFont(new Font("Tahoma 10", Font.BOLD, 20));
 		titlelbl.setBounds(63, 10, 275, 24);
 		contentPane.add(titlelbl);
 		
-		JLabel newPassword = new JLabel("Nueva Contraseña:");
+		JLabel newPassword = new JLabel("Nueva Contraseï¿½a:");
 		newPassword.setBounds(10, 64, 132, 13);
 		contentPane.add(newPassword);
 		
-		JLabel newPassword_1 = new JLabel("Nueva Contraseña:");
+		JLabel newPassword_1 = new JLabel("Nueva Contraseï¿½a:");
 		newPassword_1.setBounds(10, 112, 132, 13);
 		contentPane.add(newPassword_1);
 		
@@ -101,14 +101,14 @@ public class CambiarPasswordGUI extends JFrame {
 					}
 					jButtonClose_actionPerformed(e);
 				}else {
-					errorLbl.setText("Las contraseñas no son iguales.");
+					errorLbl.setText("Las contraseï¿½as no son iguales.");
 				}
 				/*
-				 * get contraseña1
-				 * get contraseña2
+				 * get contraseï¿½a1
+				 * get contraseï¿½a2
 				 * comprobar que son iguales
-				 * cambiar contraseña
-				 * ¿Enviar un correo diciendo q su contraseña ha sido modifcada?
+				 * cambiar contraseï¿½a
+				 * ï¿½Enviar un correo diciendo q su contraseï¿½a ha sido modifcada?
 				 */
 			}
 		});
