@@ -69,7 +69,6 @@ public interface BLFacade  {
 	public void anadirPronostico(int num, Vector<String> vector, Vector<Float>vector2);
 	
 	
-//	public Vector<Question> consultarPregunta();
 	
 	
 	 public Event createEvent(Integer eventNumber, String description,Date eventDate) throws EventAlreadyExist;
