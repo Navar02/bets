@@ -105,19 +105,20 @@ public class DataAccess  {
 			Question q11;
 			Question q12;
 			String ganar= "�Qui�n ganar� el partido?";
+			String gol= "�Qui�n meter� el primer gol?";
 			if (Locale.getDefault().equals(new Locale("es"))) {
 				q1=ev1.addQuestion(ganar,1);
-				q2=ev1.addQuestion("�Qui�n meter� el primer gol?",2);
+				q2=ev1.addQuestion(gol,2);
 				q3=ev11.addQuestion(ganar,1);
 				q4=ev11.addQuestion("�Cuantos goles se marcar�n?",2);
 				q5=ev17.addQuestion(ganar,1);
 				q6=ev17.addQuestion("�Habr� goles en la primera parte?",2);
 				q7=ev2.addQuestion(ganar,1);
-				q8=ev2.addQuestion("�Qui�n meter� el primer gol?",2);
+				q8=ev2.addQuestion(gol,2);
 				q9=ev3.addQuestion(ganar,1);
-				q10=ev3.addQuestion("�Qui�n meter� el primer gol?",2);
+				q10=ev3.addQuestion(gol,2);
 				q11=ev4.addQuestion(ganar,1);
-				q12=ev4.addQuestion("�Qui�n meter� el primer gol?",2);
+				q12=ev4.addQuestion(gol,2);
 			}
 			else if (Locale.getDefault().equals(new Locale("en"))) {
 				q1=ev1.addQuestion("Who will win the match?",1);
