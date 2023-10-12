@@ -40,7 +40,6 @@ public class DABGetUsersMasGananciasTest {
     public void testGetUsersMasGananciasWithUsersAndTransactions() {
     	dataAccess.anadirUsuario("Paco", "123", "1111111111111113", "jaheki1761@angeleslid.com");
 		dataAccess.anadirUsuario("Juan", "123", "1111111111111112", "jaheki1761@angeleslid.com");
-		
         User user1 = dataAccess.getUser("Paco");
         User user2 = dataAccess.getUser("Juan");
         
