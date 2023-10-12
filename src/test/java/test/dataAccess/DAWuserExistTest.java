@@ -16,7 +16,7 @@ public class DAWuserExistTest {
     public void setUp() {
         DataAccess dataAccess = new DataAccess(true); // Inicializa con el modo de inicialización
         dataAccess.open(true);
-        //dataAccess.initializeDB(); // Inicializa la base de datos con datos de prueba
+        dataAccess.initializeDB(); // Inicializa la base de datos con datos de prueba
     }
     @After
     public void close() {
