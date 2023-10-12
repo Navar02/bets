@@ -10,6 +10,7 @@ import org.junit.Test;
 
 import configuration.ConfigXML;
 import dataAccess.DataAccess;
+import domain.Tarjeta;
 import domain.User;
 
 public class DABGetUsersMasGananciasTest {
@@ -21,7 +22,10 @@ public class DABGetUsersMasGananciasTest {
     public void setUp() {
         dataAccess = new DataAccess(true); // Always initialize the database
         dataAccess.open(true);
-        dataAccess.initializeDB(); // Initialize the database with test data
+         // Initialize the database with test data
+		dataAccess.anadirUsuario("Paco", "123", "1111111111111113", "jaheki1761@angeleslid.com");
+		dataAccess.anadirUsuario("Juan", "123", "1111111111111112", "jaheki1761@angeleslid.com");
+		
     }
 
     @After
