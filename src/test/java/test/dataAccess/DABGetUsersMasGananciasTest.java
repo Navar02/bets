@@ -12,20 +12,21 @@ import configuration.ConfigXML;
 import dataAccess.DataAccess;
 import domain.User;
 
-public class DABgetUsersMasGananciasTest {
+public class DABGetUsersMasGananciasTest {
 
     private DataAccess dataAccess;
-    ConfigXML c=ConfigXML.getInstance();
-	@Before
+    ConfigXML c = ConfigXML.getInstance();
+
+    @Before
     public void setUp() {
-        dataAccess = new DataAccess(c.getDataBaseOpenMode().equals("initialize"));
+        dataAccess = new DataAccess(true); // Always initialize the database
         dataAccess.open(true);
-        
-        dataAccess.initializeDB(); // Inicializa la base de datos con datos de prueba
+        dataAccess.initializeDB(); // Initialize the database with test data
     }
+
     @After
     public void close() {
-    	dataAccess.close();
+        dataAccess.close();
     }
 
     @Test
@@ -37,22 +38,21 @@ public class DABgetUsersMasGananciasTest {
     @Test
     public void testGetUsersMasGananciasWithUsersAndTransactions() {
         User user1 = dataAccess.getUser("Paco");
-        User user2 = dataAccess.getUser("juan");
-        
-        // Agregar transacciones a los usuarios
+        User user2 = dataAccess.getUser("Juan");
+
+        // Add transactions to the users
         dataAccess.addDinero("Paco", 100.0f, false);
-        dataAccess.anadirApuesta("Paco", 1, 50.0f, "Local");
+        dataAccess.anadirApuesta("Paco", 3, 50.0f, "Empate");
         dataAccess.addDinero("Juan", 200.0f, false);
-        dataAccess.anadirApuesta("Juan", 1, 150.0f, "Empate");
-        dataAccess.anadirApuesta("Juan", 2, 50.0f, "1-2 goles");
-        
+        dataAccess.anadirApuesta("Juan", 3, 150.0f, "Empate");
+        dataAccess.anadirApuesta("Juan", 4, 50.0f, "1-2 goles");
+
         Vector<Object> result = dataAccess.getUsersMasGanancias();
 
-        // Verificar que el resultado contiene los usuarios y sus ganancias
+        // Verify that the result contains the users and their earnings
         assertTrue(result.contains("Paco"));
         assertTrue(result.contains(50.0f)); // (100 - 50)
         assertTrue(result.contains("Juan"));
         assertTrue(result.contains(100.0f)); // (200 - 150 + 50)
     }
 }
-
