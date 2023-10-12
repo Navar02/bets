@@ -19,7 +19,7 @@ public class DABgetUsersMasGananciasTest {
     public void setUp() {
         dataAccess = new DataAccess(true); // Inicializa con el modo de inicialización
         dataAccess.open(false);
-        dataAccess.initializeDB(); // Inicializa la base de datos con datos de prueba
+        //dataAccess.initializeDB(); // Inicializa la base de datos con datos de prueba
     }
     @After
     public void close() {
