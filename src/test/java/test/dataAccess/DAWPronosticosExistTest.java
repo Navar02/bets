@@ -11,7 +11,7 @@ import configuration.ConfigXML;
 import dataAccess.DataAccess;
 import domain.User;
 
-public class DABPronosticosExistTest {
+public class DAWPronosticosExistTest {
 	private DataAccess dataAccess;
 	ConfigXML c=ConfigXML.getInstance();
 	@Before
