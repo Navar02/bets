@@ -39,14 +39,14 @@ public class DABGetUsersMasGananciasTest {
     public void testGetUsersMasGananciasWithUsersAndTransactions() {
         User user1 = dataAccess.getUser("Paco");
         User user2 = dataAccess.getUser("Juan");
-
+        
         // Add transactions to the users
         dataAccess.addDinero("Paco", 100.0f, false);
         dataAccess.anadirApuesta("Paco", 3, 50.0f, "Empate");
         dataAccess.addDinero("Juan", 200.0f, false);
         dataAccess.anadirApuesta("Juan", 3, 150.0f, "Empate");
         dataAccess.anadirApuesta("Juan", 4, 50.0f, "1-2 goles");
-
+        
         Vector<Object> result = dataAccess.getUsersMasGanancias();
 
         // Verify that the result contains the users and their earnings
