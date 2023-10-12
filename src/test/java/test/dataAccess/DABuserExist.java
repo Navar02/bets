@@ -2,6 +2,7 @@ package test.dataAccess;
 
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.fail;
 
 import org.junit.After;
 import org.junit.Before;
@@ -10,11 +11,11 @@ import org.junit.Test;
 import dataAccess.DataAccess;
 import domain.User;
 
-public class DAWuserExistTest {
+public class DABuserExist {
 	private DataAccess dataAccess;
 	@Before
     public void setUp() {
-        DataAccess dataAccess = new DataAccess(true); // Inicializa con el modo de inicialización
+        dataAccess = new DataAccess(true); // Inicializa con el modo de inicialización
         dataAccess.open(true);
         dataAccess.initializeDB(); // Inicializa la base de datos con datos de prueba
     }
@@ -37,4 +38,17 @@ public class DAWuserExistTest {
         boolean userExists = dataAccess.userExist("UsuarioNoExistente");
         assertFalse(userExists);
     }
+    
+    @Test
+    public void testUserExistWitNullUser() {
+		try {
+			DataAccess dataAccess = new DataAccess();
+			// Supongamos que "UsuarioNoExistente" no existe en la base de datos
+			boolean userExists = dataAccess.userExist(null);
+			fail("no deberia llegar aqui");
+		} catch (Exception e) {
+			assertTrue(true);
+		}
+    }
+    
 }
