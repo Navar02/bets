@@ -4,6 +4,7 @@ import static org.junit.Assert.*;
 
 import java.util.Vector;
 
+import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -17,7 +18,12 @@ public class DABgetUsersMasGananciasTest {
     @Before
     public void setUp() {
         dataAccess = new DataAccess(true); // Inicializa con el modo de inicialización
+        dataAccess.open(false);
         dataAccess.initializeDB(); // Inicializa la base de datos con datos de prueba
+    }
+    @After
+    public void close() {
+    	dataAccess.close();
     }
 
     @Test
