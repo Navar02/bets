@@ -18,7 +18,7 @@ public class DABgetUsersMasGananciasTest {
     @Before
     public void setUp() {
         dataAccess = new DataAccess(true); // Inicializa con el modo de inicialización
-        dataAccess.open(false);
+        dataAccess.open(true);
         //dataAccess.initializeDB(); // Inicializa la base de datos con datos de prueba
     }
     @After
@@ -36,7 +36,7 @@ public class DABgetUsersMasGananciasTest {
     public void testGetUsersMasGananciasWithUsersAndTransactions() {
         User user1 = dataAccess.getUser("x1");
         User user2 = dataAccess.getUser("x2");
-
+        
         // Agregar transacciones a los usuarios
         dataAccess.addDinero("x1", 100.0f, false);
         dataAccess.anadirApuesta("x1", 1, 50.0f, "Local");
