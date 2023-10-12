@@ -23,9 +23,6 @@ public class DABGetUsersMasGananciasTest {
         dataAccess = new DataAccess(true); // Always initialize the database
         dataAccess.open(true);
          // Initialize the database with test data
-		dataAccess.anadirUsuario("Paco", "123", "1111111111111113", "jaheki1761@angeleslid.com");
-		dataAccess.anadirUsuario("Juan", "123", "1111111111111112", "jaheki1761@angeleslid.com");
-		
     }
 
     @After
@@ -41,6 +38,9 @@ public class DABGetUsersMasGananciasTest {
 
     @Test
     public void testGetUsersMasGananciasWithUsersAndTransactions() {
+    	dataAccess.anadirUsuario("Paco", "123", "1111111111111113", "jaheki1761@angeleslid.com");
+		dataAccess.anadirUsuario("Juan", "123", "1111111111111112", "jaheki1761@angeleslid.com");
+		
         User user1 = dataAccess.getUser("Paco");
         User user2 = dataAccess.getUser("Juan");
         
