@@ -7,14 +7,16 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
+import configuration.ConfigXML;
 import dataAccess.DataAccess;
 import domain.User;
 
 public class DAWuserExistTest {
 	private DataAccess dataAccess;
+	ConfigXML c=ConfigXML.getInstance();
 	@Before
     public void setUp() {
-        DataAccess dataAccess = new DataAccess(true); // Inicializa con el modo de inicialización
+        dataAccess = new DataAccess(c.getDataBaseOpenMode().equals("initialize"));
         dataAccess.open(true);
         dataAccess.initializeDB(); // Inicializa la base de datos con datos de prueba
     }
