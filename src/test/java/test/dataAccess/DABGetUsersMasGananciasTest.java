@@ -105,6 +105,7 @@ public class DABGetUsersMasGananciasTest {
     	}finally {
     		testDA.open();
     		testDA.eliminarApuesta(uu1, qNum);
+    		testDA.eliminarPronostico(qNum);
     		testDA.eliminarUser(uu1);
     		testDA.removeEvent(ev30);
     		testDA.close();

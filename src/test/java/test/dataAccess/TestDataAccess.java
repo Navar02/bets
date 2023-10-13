@@ -18,6 +18,7 @@ import domain.Apuesta;
 import domain.Event;
 import domain.Pronosticos;
 import domain.Question;
+import domain.Transaccion;
 import domain.User;
 
 public class TestDataAccess {
@@ -105,6 +106,8 @@ public class TestDataAccess {
 			User u = db.find(User.class, uName.getUserName());
 			if (u!=null) {
 				db.getTransaction().begin();
+				for(Transaccion t : u.getTarjeta().getTransaccioness())
+					db.remove(t);
 				db.remove(u.getTarjeta());
 				db.remove(u);
 				db.getTransaction().commit();
@@ -125,7 +128,7 @@ public class TestDataAccess {
 				db.getTransaction().commit();
 				return true;
 			} else 
-			return false;
+				return false;
 		}
 		
 		public boolean eliminarPronostico(int num) {

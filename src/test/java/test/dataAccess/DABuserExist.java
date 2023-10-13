@@ -60,7 +60,9 @@ public class DABuserExist {
         User u = sut.getUser("Paco21");
         User u2 = sut.getUser("Paco22");
         try {
-        	assertTrue(sut.userExist(u.getUserName()));
+        	if (sut.userExist(u.getUserName())) {
+        		fail("No deberia de existir");
+        	}
         	
         }catch(Exception e) {
         	assertTrue(true);
