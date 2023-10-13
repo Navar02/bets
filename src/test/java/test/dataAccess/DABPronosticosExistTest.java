@@ -5,6 +5,7 @@ import static org.junit.Assert.assertNull;
 import static org.junit.Assert.assertTrue;
 import static org.junit.Assert.fail;
 
+import java.util.Calendar;
 import java.util.Vector;
 
 import org.junit.After;
@@ -14,6 +15,7 @@ import org.junit.Test;
 import configuration.ConfigXML;
 import configuration.UtilDate;
 import dataAccess.DataAccess;
+import domain.Event;
 import domain.Pronosticos;
 
 public class DABPronosticosExistTest {
@@ -34,13 +36,22 @@ public class DABPronosticosExistTest {
 		porc.add(Float.parseFloat("0.5")); porc.add(Float.parseFloat("0.2")); porc.add(Float.parseFloat("0.3"));
 		domain.Event e=new domain.Event(33, "Real Madrid-Real Sociedad", UtilDate.newDate(2023,9+1,28));
 		Pronosticos p=new Pronosticos(33, vec, porc);
+		
+		Calendar today = Calendar.getInstance();
+		int month=today.get(Calendar.MONTH);
+		month+=1;
+		int year=today.get(Calendar.YEAR);
+		if (month==12) { month=0; year+=1;}  
+		Event ev30= testDA.addEventWithQuestion("Celta-Real Sociedad", UtilDate.newDate(year,month+1,17), "�Quien gana?", 33);
+		int numEv=ev30.getQuestions().get(0).getQuestionNumber();
+		
 		try {
 			//e=sut.createEvent(33, "Real Madrid-Real Sociedad", UtilDate.newDate(2023,9+1,28));
-			sut.createEvent(e.getEventNumber(), e.getDescription(), e.getEventDate());
-			sut.createQuestion(e,"¿Quien gana?", Float.parseFloat("0.2"));
+//			sut.createEvent(e.getEventNumber(), e.getDescription(), e.getEventDate());
+//			sut.createQuestion(e,"¿Quien gana?", Float.parseFloat("0.2"));
 //    		sut.anadirPronostico(33, vec, porc);
-			sut.anadirPronostico(33, p.getOpciones(), p.getPorcentajes());
-    		assertTrue(sut.pronosticosExist(33));
+			sut.anadirPronostico(numEv, p.getOpciones(), p.getPorcentajes());
+    		assertTrue(sut.pronosticosExist(numEv));
     	}catch(Exception z) {
     		fail("No funciona correctamente");
     	}finally {
