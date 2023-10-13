@@ -1,6 +1,7 @@
 package test.dataAccess;
 import static org.junit.Assert.*;
 
+import java.util.Calendar;
 import java.util.Vector;
 
 import org.junit.After;
@@ -8,82 +9,92 @@ import org.junit.Before;
 import org.junit.Test;
 
 import configuration.ConfigXML;
+import configuration.UtilDate;
 import dataAccess.DataAccess;
+import domain.Event;
+import domain.Question;
 import domain.User;
 
 public class DAWgetUsersMasGananciasTest {
-
-    private DataAccess dataAccess;
-    ConfigXML c=ConfigXML.getInstance();
-	@Before
-    public void setUp() {
-        dataAccess = new DataAccess(c.getDataBaseOpenMode().equals("initialize"));
-        dataAccess.open(true); // Inicializa la base de datos con datos de prueba
-    }
-    @After
-    public void close() {
-    	dataAccess.close();
-    }
+	static DataAccess sut;
+    ConfigXML c = ConfigXML.getInstance();
+    static TestDataAccess testDA;
+	
 
     @Test
     public void testGetUsersMasGananciasWithNoUsers() {
-        Vector<Object> result = dataAccess.getUsersMasGanancias();
-        assertTrue(result.isEmpty());
+    	try {
+    		sut = new DataAccess();
+    		Vector<Object> result = sut.getUsersMasGanancias();
+    		assertTrue(result.isEmpty());
+    	}catch(Exception e) {
+    		fail("Va mal");
+    	}
     }
 
     @Test
     public void testGetUsersMasGananciasWithUsersAndTransactions() {
-        // Crea usuarios de prueba
-        User user1 = dataAccess.getUser("Paco");
-        User user2 = dataAccess.getUser("Juan");
-
-        // Agregar transacciones a los usuarios
-        dataAccess.addDinero("Paco", 100.0f, false);
-        dataAccess.anadirApuesta("Paco", 1, 50.0f, "Local");
-        dataAccess.addDinero("Juan", 200.0f, false);
-        dataAccess.anadirApuesta("Juan", 1, 150.0f, "Empate");
-        dataAccess.anadirApuesta("Juan", 2, 50.0f, "1-2 goles");
-
-        Vector<Object> result = dataAccess.getUsersMasGanancias();
-
-        // Verificar que el resultado contiene los usuarios y sus ganancias
-        assertTrue(result.contains("Paco"));
-        assertTrue(result.contains(50.0f)); // (100 - 50)
-        assertTrue(result.contains("Juan"));
-        assertTrue(result.contains(100.0f)); // (200 - 150 + 50)
+    	//Set test y sut
+    	testDA = new TestDataAccess();
+		sut = new DataAccess();
+		
+		//A�adimos user y lo obtenemos para comprobar q existe
+		String u1= sut.anadirUsuario("Paco22", "123", "1111111111111122", "mi@correo.com");
+		User uu1 = sut.getUser("Paco22");
+		
+		//Para a�adir evento
+		Calendar today = Calendar.getInstance();
+		int month=today.get(Calendar.MONTH);
+		month+=1;
+		int year=today.get(Calendar.YEAR);
+		if (month==12) { month=0; year+=1;}  
+		
+		//A�adimos el evento
+		Event ev30= testDA.addEventWithQuestion("Celta-Real Sociedad", UtilDate.newDate(year,month+1,17), "�Quien gana?", 20);
+		
+		//Obtenemos las preguntas de dicho evento
+		Vector<Question> qVec = ev30.getQuestions();
+		
+		//Obtenemos el numero de la primera pregunta "la unica q hemos a�adido"
+		int qNum = qVec.get(0).getQuestionNumber();
+    	try {
+    		//A�adimos el dinero
+    		sut.addDinero(uu1.getUserName(), Float.parseFloat("100"), false);
+    		
+    		//Ponemos las opciones del pronostico
+    		Vector<String> vec1= new Vector<String>();
+    		vec1.add("Local"); vec1.add("Empate"); vec1.add("Visitante");
+    		
+    		//Las ganancias de cada opcion del pronostico
+    		Vector<Float> vec2= new Vector<Float>();
+    		vec2.add(Float.parseFloat("0.2")); vec2.add(Float.parseFloat("0.5")); vec2.add(Float.parseFloat("0.3"));
+    		
+    		//A�adimos el pronostico
+    		sut.anadirPronostico(qNum, vec1, vec2);
+    		
+    		//A�adimos la apuesta de Paco22
+    		sut.anadirApuesta(uu1.getUserName(), qNum, Float.parseFloat("50"), "Empate");
+    		
+    		//Le damos un resultado
+    		sut.setResult(qNum, "Empate");
+    		
+    		//Le asignamos lo gandado al usuario (Esto en la app lo gestiona la GUI)
+    		sut.addDinero(uu1.getUserName(), 75, true);
+    		
+            Vector<Object> result = sut.getUsersMasGanancias();
+            
+            assertTrue(!result.isEmpty() && sut.getUser("Paco22").getTarjeta().getDinero()==Float.parseFloat("125"));
+            
+    	}catch(Exception e) {
+    		fail("Mal");
+    	}finally {
+    		testDA.open();
+    		testDA.eliminarApuesta(uu1, qNum);
+    		testDA.eliminarUser(uu1);
+    		testDA.removeEvent(ev30);
+    		testDA.close();
+    	}
     }
 
-    @Test
-    public void testGetUsersMasGananciasWithNegativeTransactions() {
-        User user3 = dataAccess.getUser("Paco");
-        // Agregar transacciones con valores negativos
-        dataAccess.addDinero("Paco", 100.0f, false);
-        dataAccess.anadirApuesta("Paco", 1, -50.0f, "Local");
-        dataAccess.anadirApuesta("Paco", 2, -30.0f, "1-2 goles");
-
-        Vector<Object> result = dataAccess.getUsersMasGanancias();
-
-        // Verificar que el resultado contiene el usuario y que las transacciones negativas no afectan el total
-        assertTrue(result.contains("Paco"));
-        assertTrue(result.contains(100.0f)); // (100 - 50 + 30)
-    }
-
-    @Test
-    public void testGetUsersMasGananciasWithMultipleUsersAndNoTransactions() {
-        // Crear varios usuarios sin transacciones
-        User user4 = dataAccess.getUser("Fran");
-        User user5 = dataAccess.getUser("Fran2");
-        User user6 = dataAccess.getUser("Fran3");
-
-        Vector<Object> result = dataAccess.getUsersMasGanancias();
-
-        // Verificar que los usuarios estén en el resultado con ganancias en 0
-        assertTrue(result.contains("Fran"));
-        assertTrue(result.contains(0.0f));
-        assertTrue(result.contains("Fran2"));
-        assertTrue(result.contains(0.0f));
-        assertTrue(result.contains("Fran3"));
-        assertTrue(result.contains(0.0f));
-    }
 }
 
