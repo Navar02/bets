@@ -11,6 +11,7 @@ import javax.persistence.Persistence;
 import configuration.ConfigXML;
 import domain.Event;
 import domain.Question;
+import domain.User;
 
 public class TestDataAccess {
 	protected  EntityManager  db;
@@ -88,6 +89,17 @@ public class TestDataAccess {
 			} else 
 			return false;
 			
+		}
+		public boolean eliminarUser(User user) {
+			System.out.println(">> DataAccessTest: existQuestion");
+			User u = db.find(User.class, user.getUserName());
+			if (u!=null) {
+				db.getTransaction().begin();
+				db.remove(u);
+				db.getTransaction().commit();
+				return true;
+			} else 
+			return false;
 		}
 }
 
