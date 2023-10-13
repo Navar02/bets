@@ -653,9 +653,11 @@ public class DataAccess  {
 					numApuestas++;
 				}
 			}
-			row.add(username);
-			row.add(total);
-			row.add(numApuestas);
+			if(total>0) {
+				row.add(username);
+				row.add(total);
+				row.add(numApuestas);
+			}
 		}
 		return row;
 	}
