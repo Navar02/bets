@@ -333,6 +333,7 @@ public class DataAccess  {
 		}
 		catch (Exception e){
 			e.printStackTrace();
+			db.getTransaction().rollback();
 		}
 	}
 
