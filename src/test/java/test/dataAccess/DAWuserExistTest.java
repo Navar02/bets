@@ -20,7 +20,16 @@ public class DAWuserExistTest {
     public void testUserExistWithExistingUser() {
 		testDA = new TestDataAccess();
 		sut = new DataAccess();
+		User u2=new User("Pepe", "123", "1111111111111333", "mi@correo.com");
+		try {
 		String u1= sut.anadirUsuario("Pepe", "123", "1111111111111333", "mi@correo.com");
+		}catch(Exception e) {
+			fail("error");
+		}finally {
+			testDA.open();
+			testDA.eliminarUser(u2);
+			testDA.close();
+		}
         // Supongamos que "Carlos" ya existe en la base de datos
         boolean userExists = sut.userExist("Pepe");
         assertTrue(userExists);

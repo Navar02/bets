@@ -536,7 +536,7 @@ public class DataAccess  {
 		db.getTransaction().begin();
 		Question q= db.find(Question.class, num);
 		db.getTransaction().commit();
-		boolean b= true;
+		boolean b= false;
 		if(q!=null) {
 			b=q.hayPronostico();
 		}
