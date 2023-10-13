@@ -42,6 +42,16 @@ public class UserExistBLBMTest {
 			fail("error");
 		}
 	}
+	
+	@Test
+	public void userNotExistNullTest() {
+		Mockito.doReturn(false).when(DAO).userExist(null);
+		try {
+			assertFalse(sut.userExist(null));
+		}catch(Exception e) {
+			fail("error");
+		}
+	}
 
    
 }
