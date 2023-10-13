@@ -1,6 +1,7 @@
 package test.dataAccess;
 
 import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertNull;
 import static org.junit.Assert.assertTrue;
 import static org.junit.Assert.fail;
 
@@ -13,44 +14,61 @@ import dataAccess.DataAccess;
 import domain.User;
 
 public class DABuserExist {
-	private DataAccess dataAccess;
-	ConfigXML c=ConfigXML.getInstance();
-	@Before
-    public void setUp() {
-        dataAccess = new DataAccess(c.getDataBaseOpenMode().equals("initialize"));
-        dataAccess.open(true);
-        dataAccess.initializeDB(); // Inicializa la base de datos con datos de prueba
-    }
-    @After
-    public void close() {
-    	dataAccess.close();
-    }
+	private DataAccess sut;
+	static TestDataAccess testDA;
 	@Test
     public void testUserExistWithExistingUser() {
-        User user1 = dataAccess.getUser("carlos");
-        // Supongamos que "Carlos" ya existe en la base de datos
-        boolean userExists = dataAccess.userExist("Carlos");
-        assertTrue(userExists);
+        sut = new DataAccess();
+        testDA = new TestDataAccess();
+        sut.anadirUsuario("Paco22", "123", "1111111111111122", "tu@email.com");
+        User u = sut.getUser("Paco22");
+        try {
+        	assertTrue(sut.userExist(u.getUserName()));
+        }catch(Exception e) {
+        	fail("No funciona bien");
+        } finally {
+        	testDA.open();
+        	testDA.eliminarUser(u);
+        	testDA.close();
+        }
     }
 
     @Test
     public void testUserExistWithNonExistingUser() {
-        DataAccess dataAccess = new DataAccess();
-        // Supongamos que "UsuarioNoExistente" no existe en la base de datos
-        boolean userExists = dataAccess.userExist("UsuarioNoExistente");
-        assertFalse(userExists);
+    	sut = new DataAccess();
+        testDA = new TestDataAccess();
+        sut.anadirUsuario("Paco22", "123", "1111111111111122", "tu@email.com");
+        User u = sut.getUser("Paco21");
+        User u2 = sut.getUser("Paco22");
+        try {
+        	assertFalse(sut.userExist("Paco21"));
+        	
+        }catch(Exception e) {
+        	fail("Mal, Paco21 no deberia de existir");
+        } finally {
+        	testDA.open();
+        	testDA.eliminarUser(u2);
+        	testDA.close();
+        }
     }
     
     @Test
     public void testUserExistWitNullUser() {
-		try {
-			DataAccess dataAccess = new DataAccess();
-			// Supongamos que "UsuarioNoExistente" no existe en la base de datos
-			boolean userExists = dataAccess.userExist(null);
-			fail("no deberia llegar aqui");
-		} catch (Exception e) {
-			assertTrue(true);
-		}
+    	sut = new DataAccess();
+        testDA = new TestDataAccess();
+        sut.anadirUsuario("Paco22", "123", "1111111111111122", "tu@email.com");
+        User u = sut.getUser("Paco21");
+        User u2 = sut.getUser("Paco22");
+        try {
+        	assertTrue(sut.userExist(u.getUserName()));
+        	
+        }catch(Exception e) {
+        	assertTrue(true);
+        } finally {
+        	testDA.open();
+        	testDA.eliminarUser(u2);
+        	testDA.close();
+        }
     }
     
 }
