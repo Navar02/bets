@@ -20,21 +20,7 @@ import domain.User;
 public class DABGetUsersMasGananciasTest {
 
     static DataAccess sut;
-    ConfigXML c = ConfigXML.getInstance();
     static TestDataAccess testDA;
-
-//    @Before
-//    public void setUp() {
-//        sut = new sut(); // Always initialize the database
-////        sut.open(false);
-//         // Initialize the database with test data
-//        sut.close();
-//    }
-
-//    @After
-//    public void close() {
-//        sut.close();
-//    }
 
     @Test
     public void testGetUsersMasGananciasWithNoUsers() {
@@ -104,9 +90,13 @@ public class DABGetUsersMasGananciasTest {
     		fail("Mal");
     	}finally {
     		testDA.open();
+    		//Eliminamos la apuesta relizada por el user
     		testDA.eliminarApuesta(uu1, qNum);
+    		//Eliminamos el pronostico añadido a la pregunta qNum
     		testDA.eliminarPronostico(qNum);
+    		//Eliminamos el usuario junto a sus transacciones y su tarjeta
     		testDA.eliminarUser(uu1);
+    		//Eliminamos el evento junto a sus preguntas añadidas
     		testDA.removeEvent(ev30);
     		testDA.close();
     	}

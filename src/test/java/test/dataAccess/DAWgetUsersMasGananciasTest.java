@@ -17,14 +17,15 @@ import domain.User;
 
 public class DAWgetUsersMasGananciasTest {
 	static DataAccess sut;
-    ConfigXML c = ConfigXML.getInstance();
     static TestDataAccess testDA;
 	
 
     @Test
     public void testGetUsersMasGananciasWithNoUsers() {
     	try {
+    		//Set sut
     		sut = new DataAccess();
+    		// No hay nada en la BD por tanto esta vacio
     		Vector<Object> result = sut.getUsersMasGanancias();
     		assertTrue(result.isEmpty());
     	}catch(Exception e) {
@@ -89,9 +90,13 @@ public class DAWgetUsersMasGananciasTest {
     		fail("Mal");
     	}finally {
     		testDA.open();
+    		//Eliminamos la apuesta realizada
     		testDA.eliminarApuesta(uu1, qNum);
+    		//Eliminamos el pronostico añadido
     		testDA.eliminarPronostico(qNum);
+    		//Eliminamos el usuario junto a sus transacciones y su tarjeta
     		testDA.eliminarUser(uu1);
+    		//Eliminamos el evento junto a las preguntas añadidas
     		testDA.removeEvent(ev30);
     		testDA.close();
     	}

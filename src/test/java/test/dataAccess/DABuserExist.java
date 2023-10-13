@@ -18,8 +18,10 @@ public class DABuserExist {
 	static TestDataAccess testDA;
 	@Test
     public void testUserExistWithExistingUser() {
+		//Set test y sut
         sut = new DataAccess();
         testDA = new TestDataAccess();
+        //Añadimos le usuario y lo obtenemos
         sut.anadirUsuario("Paco22", "123", "1111111111111122", "tu@email.com");
         User u = sut.getUser("Paco22");
         try {
@@ -27,6 +29,7 @@ public class DABuserExist {
         }catch(Exception e) {
         	fail("No funciona bien");
         } finally {
+        	//Eliminamos el usuario y junto a el sus transacciones y tarjeta
         	testDA.open();
         	testDA.eliminarUser(u);
         	testDA.close();
@@ -35,9 +38,12 @@ public class DABuserExist {
 
     @Test
     public void testUserExistWithNonExistingUser() {
+    	//Set test y sut
     	sut = new DataAccess();
         testDA = new TestDataAccess();
+        //Añadimos el usuario
         sut.anadirUsuario("Paco22", "123", "1111111111111122", "tu@email.com");
+        //Obtenemos un usuario q no existe y luego el añadidio para eliminarlo
         User u = sut.getUser("Paco21");
         User u2 = sut.getUser("Paco22");
         try {
@@ -46,6 +52,7 @@ public class DABuserExist {
         }catch(Exception e) {
         	fail("Mal, Paco21 no deberia de existir");
         } finally {
+        	//Eliminamos el user añadido
         	testDA.open();
         	testDA.eliminarUser(u2);
         	testDA.close();
@@ -54,12 +61,16 @@ public class DABuserExist {
     
     @Test
     public void testUserExistWitNullUser() {
+    	//Set test y sut
     	sut = new DataAccess();
         testDA = new TestDataAccess();
+        //Añadimos el user
         sut.anadirUsuario("Paco22", "123", "1111111111111122", "tu@email.com");
+        //Obtenemos un usuario q no existe y luego el añadidio para eliminarlo
         User u = sut.getUser("Paco21");
         User u2 = sut.getUser("Paco22");
         try {
+        	//Si da true esta mal porq el user no deberia de existir de ahi el fail
         	if (sut.userExist(u.getUserName())) {
         		fail("No deberia de existir");
         	}
@@ -67,6 +78,7 @@ public class DABuserExist {
         }catch(Exception e) {
         	assertTrue(true);
         } finally {
+        	// Eliminamos user
         	testDA.open();
         	testDA.eliminarUser(u2);
         	testDA.close();
