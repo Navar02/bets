@@ -1,15 +1,22 @@
 package test.dataAccess;
 
+import static org.mockito.ArgumentMatchers.any;
+import static org.mockito.Mockito.RETURNS_DEEP_STUBS;
+
 import java.util.Date;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
+import javax.persistence.TypedQuery;
 
 import configuration.ConfigXML;
+import domain.Apuesta;
 import domain.Event;
+import domain.Pronosticos;
 import domain.Question;
 import domain.User;
 
@@ -59,6 +66,9 @@ public class TestDataAccess {
 		Event e = db.find(Event.class, ev.getEventNumber());
 		if (e!=null) {
 			db.getTransaction().begin();
+			for(Question q : e.getQuestions()) {
+				db.remove(q);
+			}
 			db.remove(e);
 			db.getTransaction().commit();
 			return true;
@@ -90,16 +100,46 @@ public class TestDataAccess {
 			return false;
 			
 		}
-		public boolean eliminarUser(User user) {
-			System.out.println(">> DataAccessTest: existQuestion");
-			User u = db.find(User.class, user.getUserName());
+		public boolean eliminarUser(User uName) {
+			System.out.println(">> DataAccessTest: existUser");
+			User u = db.find(User.class, uName.getUserName());
 			if (u!=null) {
 				db.getTransaction().begin();
+				db.remove(u.getTarjeta());
 				db.remove(u);
 				db.getTransaction().commit();
 				return true;
 			} else 
 			return false;
 		}
+		
+		public boolean eliminarApuesta(User user, int qNum) {
+			System.out.println(">> DataAccessTest: existApuesta");
+			TypedQuery<Apuesta> query= db.createQuery("SELECT a FROM Apuesta a WHERE a.userName LIKE 'Paco22' and a.questionNum = 52", Apuesta.class);// user.getUserName().toString()
+			List<Apuesta> apuestas = query.getResultList();
+			if (query!=null) {
+				db.getTransaction().begin();
+				for(Apuesta i: apuestas) {
+					db.remove(i);
+				}
+				db.getTransaction().commit();
+				return true;
+			} else 
+			return false;
+		}
+		
+		public boolean eliminarPronostico(int num) {
+            System.out.println(">> DataAccessTest: eliminarPronostico");
+            Pronosticos p=db.find(Pronosticos.class, num);
+            if(p!=null) {
+                db.getTransaction().begin();
+                db.remove(p);
+                db.getTransaction().commit();
+                return true;
+            }
+            else {
+                return false;
+            }
+        }
 }
 
