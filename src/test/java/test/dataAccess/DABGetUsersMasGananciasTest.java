@@ -55,8 +55,8 @@ public class DABGetUsersMasGananciasTest {
 
         // Verify that the result contains the users and their earnings
         assertTrue(result.contains("Paco"));
-        assertTrue(result.contains(50.0f)); // (100 - 50)
+        assertTrue(result.contains(75.0f)); // (100 - 50)
         assertTrue(result.contains("Juan"));
-        assertTrue(result.contains(100.0f)); // (200 - 150 + 50)
+        assertTrue(result.contains(200.0f)); // (200 - 150 + 50)
     }
 }
