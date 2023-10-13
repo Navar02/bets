@@ -47,6 +47,7 @@ public class DAWPronosticosExistTest {
         	fail("error");
         }finally {
         	testDA.open();
+        	testDA.eliminarPronostico(14);
     		testDA.removeEvent(ev33);
     		testDA.close();
         }
@@ -68,6 +69,7 @@ public class DAWPronosticosExistTest {
 			e.printStackTrace();
 		}finally{
 			testDA.open();
+			testDA.eliminarPronostico(69);
     		testDA.removeEvent(ev66);
     		testDA.close();
 		}
