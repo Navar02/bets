@@ -21,7 +21,7 @@ public class DABGetUsersMasGananciasTest {
     @Before
     public void setUp() {
         dataAccess = new DataAccess(true); // Always initialize the database
-        dataAccess.open(true);
+        dataAccess.open(false);
          // Initialize the database with test data
     }
 
