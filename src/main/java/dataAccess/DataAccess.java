@@ -641,6 +641,11 @@ public class DataAccess  {
 	public Vector<Object> getUsersMasGanancias(){
 		Vector<Object>row= new Vector<Object>();
 		Vector<User>vecUsers= getAllUsers();
+		extracted(row, vecUsers);
+		return row;
+	}
+
+	private void extracted(Vector<Object> row, Vector<User> vecUsers) {
 		for(User i: vecUsers) {
 			String username= i.getUserName();
 			Vector<Transaccion> tran= i.getTarjeta().getTransaccioness();
@@ -659,7 +664,6 @@ public class DataAccess  {
 				row.add(numApuestas);
 			}
 		}
-		return row;
 	}
 	
 	public void setImageUser(String username, String ruta) {
