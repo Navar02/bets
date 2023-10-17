@@ -121,32 +121,36 @@ public class DataAccess  {
 				q12=ev4.addQuestion(gol,2);
 			}
 			else if (Locale.getDefault().equals(new Locale("en"))) {
-				q1=ev1.addQuestion("Who will win the match?",1);
-				q2=ev1.addQuestion("Who will score first?",2);
-				q3=ev11.addQuestion("Who will win the match?",1);
+				String winMatch = "Who will win the match?";
+				q1=ev1.addQuestion(winMatch,1);
+				String scoreFirst = "Who will score first?";
+				q2=ev1.addQuestion(scoreFirst,2);
+				q3=ev11.addQuestion(winMatch,1);
 				q4=ev11.addQuestion("How many goals will be scored in the match?",2);
-				q5=ev17.addQuestion("Who will win the match?",1);
+				q5=ev17.addQuestion(winMatch,1);
 				q6=ev17.addQuestion("Will there be goals in the first half?",2);
-				q7=ev2.addQuestion("Who will win the match?",1);
-				q8=ev2.addQuestion("Who will score first?",2);
-				q9=ev3.addQuestion("Who will win the match?",1);
-				q10=ev3.addQuestion("Who will score first?",2);
-				q11=ev4.addQuestion("Who will win the match?",1);
-				q12=ev4.addQuestion("Who will score first?",2);
+				q7=ev2.addQuestion(winMatch,1);
+				q8=ev2.addQuestion(scoreFirst,2);
+				q9=ev3.addQuestion(winMatch,1);
+				q10=ev3.addQuestion(scoreFirst,2);
+				q11=ev4.addQuestion(winMatch,1);
+				q12=ev4.addQuestion(scoreFirst,2);
 			}			
 			else {
-				q1=ev1.addQuestion("Zeinek irabaziko du partidua?",1);
-				q2=ev1.addQuestion("Zeinek sartuko du lehenengo gola?",2);
-				q3=ev11.addQuestion("Zeinek irabaziko du partidua?",1);
+				String zeinek = "Zeinek irabaziko du partidua?";
+				q1=ev1.addQuestion(zeinek,1);
+				String zeinek2 = "Zeinek sartuko du lehenengo gola?";
+				q2=ev1.addQuestion(zeinek2,2);
+				q3=ev11.addQuestion(zeinek,1);
 				q4=ev11.addQuestion("Zenbat gol sartuko dira?",2);
-				q5=ev17.addQuestion("Zeinek irabaziko du partidua?",1);
+				q5=ev17.addQuestion(zeinek,1);
 				q6=ev17.addQuestion("Golak sartuko dira lehenengo zatian?",2);
-				q7=ev2.addQuestion("Zeinek irabaziko du partidua?",1);
-				q8=ev2.addQuestion("Zeinek sartuko du lehenengo gola?",2);
-				q9=ev3.addQuestion("Zeinek irabaziko du partidua?",1);
-				q10=ev3.addQuestion("Zeinek sartuko du lehenengo gola?",2);
-				q11=ev4.addQuestion("Zeinek irabaziko du partidua?",1);
-				q12=ev4.addQuestion("Zeinek sartuko du lehenengo gola?",2);
+				q7=ev2.addQuestion(zeinek,1);
+				q8=ev2.addQuestion(zeinek2,2);
+				q9=ev3.addQuestion(zeinek,1);
+				q10=ev3.addQuestion(zeinek2,2);
+				q11=ev4.addQuestion(zeinek,1);
+				q12=ev4.addQuestion(zeinek2,2);
 
 			}
 
@@ -213,7 +217,8 @@ public class DataAccess  {
 			usuario.setAdmin(true);
 			db.persist(usuario);
 			
-			User usuario2= new User("Juan", "123", "1111111111111112", "jaheki1761@angeleslid.com");
+			String correo1 = "jaheki1761@angeleslid.com";
+			User usuario2= new User("Juan", "123", "1111111111111112", correo1);
 			usuario2.setAdmin(false);
 			Tarjeta t= new Tarjeta("1111111111111112");
 			usuario2.setTarjeta(t);
@@ -221,7 +226,7 @@ public class DataAccess  {
 			db.persist(t);
 			db.persist(usuario2);
 			
-			User usuario3= new User("Paco", "123", "1111111111111113", "jaheki1761@angeleslid.com");
+			User usuario3= new User("Paco", "123", "1111111111111113", correo1);
 			usuario3.setAdmin(false);
 			Tarjeta t3= new Tarjeta("1111111111111113");
 			usuario3.setTarjeta(t3);
@@ -229,7 +234,8 @@ public class DataAccess  {
 			db.persist(t3);
 			db.persist(usuario3);
 			
-			User usuario4= new User("Juan2", "123", "1111111111111114", "jaheki1761@angeleslid.com");
+			String juan2 = "Juan2";
+			User usuario4= new User(juan2, "123", "1111111111111114", correo1);
 			usuario4.setAdmin(false);
 			Tarjeta t4= new Tarjeta("1111111111111114");
 			usuario4.setTarjeta(t4);
@@ -237,7 +243,7 @@ public class DataAccess  {
 			db.persist(t4);
 			db.persist(usuario4);
 			
-			User usuario5= new User("Fran", "123", "1111111111111115", "jaheki1761@angeleslid.com");
+			User usuario5= new User("Fran", "123", "1111111111111115", correo1);
 			usuario5.setAdmin(false);
 			Tarjeta t5= new Tarjeta("1111111111111115");
 			usuario5.setTarjeta(t5);
@@ -245,7 +251,8 @@ public class DataAccess  {
 			db.persist(t5);
 			db.persist(usuario5);
 			
-			User usuario6= new User("Fran2", "123", "1111111111111116", "jaheki1761@angeleslid.com");
+			String fran2 = "Fran2";
+			User usuario6= new User(fran2, "123", "1111111111111116", correo1);
 			usuario6.setAdmin(false);
 			Tarjeta t6= new Tarjeta("1111111111111116");
 			usuario6.setTarjeta(t6);
@@ -253,7 +260,8 @@ public class DataAccess  {
 			db.persist(t6);
 			db.persist(usuario6);
 			
-			User usuario7= new User("Fran3", "123", "1111111111111117", "jaheki1761@angeleslid.com");
+			String fran3 = "Fran3";
+			User usuario7= new User(fran3, "123", "1111111111111117", correo1);
 			usuario7.setAdmin(false);
 			Tarjeta t7= new Tarjeta("1111111111111117");
 			usuario7.setTarjeta(t7);
@@ -273,7 +281,8 @@ public class DataAccess  {
 			
 			Vector<String> vec= new Vector<String>();
 			vec.add(0, "Local");
-			vec.add(1, "Empate");
+			String empate = "Empate";
+			vec.add(1, empate);
 			vec.add(2, "Visitante");
 			
 			Vector<Float> vec2= new Vector<Float>();
@@ -284,8 +293,10 @@ public class DataAccess  {
 			anadirPronostico(3, vec, vec2);
 
 			vec= new Vector<String>();
-			vec.add(0, "0 goles");
-			vec.add(1, "1-2 goles");
+			String Nogoles = "0 goles";
+			vec.add(0, Nogoles);
+			String unoODosGoles = "1-2 goles";
+			vec.add(1, unoODosGoles);
 			vec.add(2, "3 o + goles");
 			
 			vec2= new Vector<Float>();
@@ -296,35 +307,35 @@ public class DataAccess  {
 			anadirPronostico(4, vec, vec2);
 
 			addDinero("Paco", Float.parseFloat("100"), false);
-			anadirApuesta("Paco", 3, Float.parseFloat("50"), "Empate");
+			anadirApuesta("Paco", 3, Float.parseFloat("50"), empate);
 			
-			anadirApuesta("Paco", 4, Float.parseFloat("50"), "0 goles");
+			anadirApuesta("Paco", 4, Float.parseFloat("50"), Nogoles);
 			
 			addDinero("Juan", Float.parseFloat("200"), false);
-			anadirApuesta("Juan", 3, Float.parseFloat("150"), "Empate");
+			anadirApuesta("Juan", 3, Float.parseFloat("150"), empate);
 			
-			anadirApuesta("Juan", 4, Float.parseFloat("50"), "1-2 goles");
+			anadirApuesta("Juan", 4, Float.parseFloat("50"), unoODosGoles);
 			
-			addDinero("Juan2", Float.parseFloat("500"), false);
-			anadirApuesta("Juan2", 3, Float.parseFloat("200"), "Empate");
+			addDinero(juan2, Float.parseFloat("500"), false);
+			anadirApuesta(juan2, 3, Float.parseFloat("200"), empate);
 			
 //			addDinero("Juan2", Float.parseFloat("500"), false);
-			anadirApuesta("Juan2", 4, Float.parseFloat("200"), "1-2 goles");
+			anadirApuesta(juan2, 4, Float.parseFloat("200"), unoODosGoles);
 			
 			addDinero("Fran", Float.parseFloat("300"), false);
 			anadirApuesta("Fran", 3, Float.parseFloat("10"), "Local");
 			
-			anadirApuesta("Fran", 4, Float.parseFloat("200"), "0 goles");
+			anadirApuesta("Fran", 4, Float.parseFloat("200"), Nogoles);
 			
-			addDinero("Fran2", Float.parseFloat("130"), false);
-			anadirApuesta("Fran2", 3, Float.parseFloat("50"), "Visitante");
+			addDinero(fran2, Float.parseFloat("130"), false);
+			anadirApuesta(fran2, 3, Float.parseFloat("50"), "Visitante");
 			
-			anadirApuesta("Fran2", 4, Float.parseFloat("50"), "0 goles");
+			anadirApuesta(fran2, 4, Float.parseFloat("50"), Nogoles);
 			
-			addDinero("Fran3", Float.parseFloat("600"), false);
-			anadirApuesta("Fran3", 3, Float.parseFloat("500"), "Empate");
+			addDinero(fran3, Float.parseFloat("600"), false);
+			anadirApuesta(fran3, 3, Float.parseFloat("500"), empate);
 			
-			anadirApuesta("Fran3", 4, Float.parseFloat("100"), "1-2 goles");
+			anadirApuesta(fran3, 4, Float.parseFloat("100"), unoODosGoles);
 			
 //			setResult(3, "Empate");
 //			setResult(4, "0 goles");
