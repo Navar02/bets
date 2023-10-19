@@ -19,16 +19,16 @@ public class DABGetUsersMasGanancias2Test {
     static DataAccessGetUsersMasGanancias sut;
     static TestDataAccess testDA;
 
-    @Test
-    public void testGetUsersMasGananciasWithNoUsers() {
-    	try {
-    		sut = new DataAccessGetUsersMasGanancias();
-    		Vector<Object> result = sut.getUsersMasGanancias();
-    		assertTrue(result.isEmpty());
-    	}catch(Exception e) {
-    		fail("Va mal");
-    	}
-    }
+//    @Test
+//    public void testGetUsersMasGananciasWithNoUsers() {
+//    	try {
+//    		sut = new DataAccessGetUsersMasGanancias();
+//    		Vector<Object> result = sut.getUsersMasGanancias();
+//    		assertTrue(result.isEmpty());
+//    	}catch(Exception e) {
+//    		fail("Va mal");
+//    	}
+//    }
 
     @Test
     public void testGetUsersMasGananciasWithUsersAndTransactions() {

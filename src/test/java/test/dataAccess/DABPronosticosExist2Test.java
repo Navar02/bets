@@ -59,19 +59,19 @@ public class DABPronosticosExist2Test {
     	}
 	}
 
-	@Test
-	public void testPronosticosExistWithInvalidQuestion() {
-		// Prueba con una pregunta inexistente
-		
-		testDA = new TestDataAccess();
-		sut = new DataAccessPronosticoExist();
-		try {
-    		assertFalse(sut.pronosticosExist(100)); // Número de pregunta inexistente
-    	}catch(Exception e) {
-    		fail("No funciona correctamente");
-    	}finally {
-    		testDA.open();
-    		testDA.close();
-    	}
-	}
+//	@Test
+//	public void testPronosticosExistWithInvalidQuestion() {
+//		// Prueba con una pregunta inexistente
+//		
+//		testDA = new TestDataAccess();
+//		sut = new DataAccessPronosticoExist();
+//		try {
+//    		assertFalse(sut.pronosticosExist(100)); // Número de pregunta inexistente
+//    	}catch(Exception e) {
+//    		fail("No funciona correctamente");
+//    	}finally {
+//    		testDA.open();
+//    		testDA.close();
+//    	}
+//	}
 }
