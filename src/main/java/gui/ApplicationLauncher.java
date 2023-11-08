@@ -27,11 +27,11 @@ public class ApplicationLauncher {
 		a.setVisible(true);
 		
 		try {
-		BLFacade appFacadeInterface;
+		BLFacade appFacadeInterface; //product
 		UIManager.setLookAndFeel("javax.swing.plaf.metal.MetalLookAndFeel");
 		
-		BLFactory fc= new BLFactory();
-		appFacadeInterface=fc.generateBLogic(c,a);
+		BLFactory fc= new BLFactory(); //Creator
+		appFacadeInterface=fc.generateBLogic(c,a); //concrete Product
 		
 		MainGUI.setBussinessLogic(appFacadeInterface);
 		
