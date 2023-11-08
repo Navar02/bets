@@ -14,6 +14,7 @@ import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
 @Entity
 public class Event implements Serializable {
 	
+	
 	/**
 	 * 
 	 */

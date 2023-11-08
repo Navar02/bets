@@ -1,0 +1,130 @@
+------------------------------------------------------------------------------------------------------------------------
+
+[2023-11-08 14:15:25 #1 store] 
+Database 'C:\Users\jnava\git\bets\src\main\resources\bets.temp' is opened by 4112@PortatilJuan
+
+[2023-11-08 14:15:25 #2 type.registry] 
+New type domain.Question
+
+[2023-11-08 14:15:25 #3 type] 
+Type domain.Question is not enhanced.
+
+[2023-11-08 14:15:25 #4 type.registry] 
+New type domain.Apuesta
+
+[2023-11-08 14:15:25 #5 type.registry] 
+New type java.util.Vector<domain.Apuesta>
+
+[2023-11-08 14:15:25 #6 type.registry] 
+New type domain.Pronosticos
+
+[2023-11-08 14:15:25 #7 type.registry] 
+New type domain.Event
+
+[2023-11-08 14:15:25 #8 type] 
+Type domain.Apuesta is not enhanced.
+
+[2023-11-08 14:15:25 #9 type] 
+Type domain.Pronosticos is not enhanced.
+
+[2023-11-08 14:15:25 #10 type.registry] 
+New type java.util.Vector<java.lang.Float>
+
+[2023-11-08 14:15:25 #11 type.registry] 
+New type java.util.Vector<java.lang.String>
+
+[2023-11-08 14:15:25 #12 type] 
+Type domain.Event is not enhanced.
+
+[2023-11-08 14:15:25 #13 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2023-11-08 14:15:25 #14 type.registry] 
+New type domain.User
+
+[2023-11-08 14:15:25 #15 type] 
+Type domain.User is not enhanced.
+
+[2023-11-08 14:15:25 #16 type.registry] 
+New type domain.Tarjeta
+
+[2023-11-08 14:15:25 #17 type] 
+Type domain.Tarjeta is not enhanced.
+
+[2023-11-08 14:15:25 #18 type.registry] 
+New type domain.Transaccion
+
+[2023-11-08 14:15:25 #19 type.registry] 
+New type java.util.Vector<domain.Transaccion>
+
+[2023-11-08 14:15:25 #20 type] 
+Type domain.Transaccion is not enhanced.
+
+[2023-11-08 14:15:25 #21 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2023-11-08 14:24:37 #1 store] 
+Database 'C:\Users\jnava\git\bets\src\main\resources\bets.temp' is opened by 18320@PortatilJuan
+
+[2023-11-08 14:24:37 #2 type.registry] 
+New type domain.Question
+
+[2023-11-08 14:24:37 #3 type] 
+Type domain.Question is not enhanced.
+
+[2023-11-08 14:24:37 #4 type.registry] 
+New type domain.Apuesta
+
+[2023-11-08 14:24:37 #5 type.registry] 
+New type java.util.Vector<domain.Apuesta>
+
+[2023-11-08 14:24:37 #6 type.registry] 
+New type domain.Pronosticos
+
+[2023-11-08 14:24:37 #7 type.registry] 
+New type domain.Event
+
+[2023-11-08 14:24:37 #8 type] 
+Type domain.Apuesta is not enhanced.
+
+[2023-11-08 14:24:37 #9 type] 
+Type domain.Pronosticos is not enhanced.
+
+[2023-11-08 14:24:37 #10 type.registry] 
+New type java.util.Vector<java.lang.Float>
+
+[2023-11-08 14:24:37 #11 type.registry] 
+New type java.util.Vector<java.lang.String>
+
+[2023-11-08 14:24:37 #12 type] 
+Type domain.Event is not enhanced.
+
+[2023-11-08 14:24:37 #13 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2023-11-08 14:24:37 #14 type.registry] 
+New type domain.User
+
+[2023-11-08 14:24:37 #15 type] 
+Type domain.User is not enhanced.
+
+[2023-11-08 14:24:37 #16 type.registry] 
+New type domain.Tarjeta
+
+[2023-11-08 14:24:37 #17 type] 
+Type domain.Tarjeta is not enhanced.
+
+[2023-11-08 14:24:37 #18 type.registry] 
+New type domain.Transaccion
+
+[2023-11-08 14:24:37 #19 type.registry] 
+New type java.util.Vector<domain.Transaccion>
+
+[2023-11-08 14:24:37 #20 type] 
+Type domain.Transaccion is not enhanced.
+
+[2023-11-08 14:24:37 #21 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
