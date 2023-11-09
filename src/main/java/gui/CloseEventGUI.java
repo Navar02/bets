@@ -5,7 +5,7 @@ import configuration.UtilDate;
 import com.sun.mail.smtp.SMTPOutputStream;
 import com.toedter.calendar.JCalendar;
 
-import businesslogic.BLFacade;
+import businessLogic.BLFacade;
 import domain.Apuesta;
 import domain.Question;
 import domain.User;

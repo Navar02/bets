@@ -6,8 +6,8 @@ import java.net.URL;
 import javax.xml.namespace.QName;
 import javax.xml.ws.Service;
 
-import businesslogic.BLFacade;
-import businesslogic.BLFacadeImplementation;
+import businessLogic.BLFacade;
+import businessLogic.BLFacadeImplementation;
 import dataAccess.DataAccess;
 import gui.MainGUI;
 

@@ -18,7 +18,7 @@ import javax.swing.border.EmptyBorder;
 import javax.swing.table.DefaultTableModel;
 import javax.swing.table.TableRowSorter;
 
-import businesslogic.BLFacade;
+import businessLogic.BLFacade;
 import domain.Apuesta;
 import domain.Transaccion;
 

@@ -11,7 +11,7 @@ import org.mockito.Mock;
 import org.mockito.Mockito;
 import org.mockito.junit.MockitoJUnitRunner;
 
-import businesslogic.BLFacadeImplementation;
+import businessLogic.BLFacadeImplementation;
 import dataAccess.DataAccess;
 
 @RunWith(MockitoJUnitRunner.class)

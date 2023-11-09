@@ -1,4 +1,4 @@
-package businesslogic;
+package businessLogic;
 //hola
 import java.util.Date;
 import java.util.ResourceBundle;

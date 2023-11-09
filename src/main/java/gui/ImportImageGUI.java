@@ -15,7 +15,7 @@ import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
 import javax.swing.filechooser.FileNameExtensionFilter;
 
-import businesslogic.BLFacade;
+import businessLogic.BLFacade;
 
 import javax.swing.JLabel;
 import javax.swing.JTextField;

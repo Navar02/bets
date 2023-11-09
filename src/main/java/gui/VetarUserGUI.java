@@ -13,7 +13,7 @@ import javax.swing.JPanel;
 import javax.swing.SwingConstants;
 import javax.swing.border.EmptyBorder;
 
-import businesslogic.BLFacade;
+import businessLogic.BLFacade;
 import domain.User;
 
 import javax.swing.JLabel;
