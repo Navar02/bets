@@ -18,7 +18,7 @@ import domain.Event;
 import exceptions.EventAlreadyExist;
 import exceptions.EventFinished;
 import exceptions.QuestionAlreadyExist;
-
+  
 /**
  * It implements the business logic as a web service.
  */
