@@ -1,4 +1,4 @@
-package gui;
+package businessLogic;
 
 
 import java.text.ParseException;
@@ -6,9 +6,6 @@ import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
 
-import businessLogic.BLFacade;
-import businessLogic.BLFacadeImplementation;
-import businessLogic.ExtendedIterator;
 import configuration.BLFactory;
 import configuration.ConfigXML;
 import configuration.UtilDate;
@@ -30,8 +27,8 @@ public class MainForIterator {
 			ExtendedIterator<Event> i = blFacade.getEventsIterator(date);
 			Event e;
 			System.out.println("_____________________");
-			System.out.println("RECORRIDO HACIA ATRÁS");
-			i.goLast(); // Hacia atrás
+			System.out.println("RECORRIDO HACIA ATRÃ�S");
+			i.goLast(); // Hacia atrÃ¡s
 			while (i.hasPrevious()) {
 				e = i.previous();
 				System.out.println(e.toString());

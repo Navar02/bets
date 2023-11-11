@@ -7,18 +7,20 @@ import configuration.ConfigXML;
 import dataAccess.DataAccess;
 
 public class Main {
-
+	private static DataAccess da;
 	public static void main(String[] args) {
 		try {
 			ConfigXML c = ConfigXML.getInstance();
 			BLFacade blFacade;
-			DataAccess da = new DataAccess(c.getDataBaseOpenMode().equals("initialize"));
+			da = new DataAccess(c.getDataBaseOpenMode().equals("initialize"));
 			blFacade = new BLFacadeImplementation(da);
 			User user = blFacade.getUserByName("Juan");
-			WindowTable vt = new WindowTable(user);
+			WindowTable vt = new WindowTable(user, blFacade);
 			vt.setVisible(true);
 		} catch (Exception e) {
 			e.printStackTrace();
+		}finally {
+			da.close();
 		}
 	}
 
