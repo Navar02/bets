@@ -36,7 +36,7 @@ public class MainForIterator {
 				e = i.previous();
 				System.out.println(e.toString());
 			}
-			System.out.println();
+			System.out.println("fin recorrido hacia atras");
 			System.out.println("_____________________");
 			System.out.println("RECORRIDO HACIA ADELANTE");
 			i.goFirst(); // Hacia adelante
@@ -44,6 +44,7 @@ public class MainForIterator {
 				e = i.next();
 				System.out.println(e.toString());
 			}
+			System.out.println("fin recorrido hacia delante");
 		} catch (ParseException e) {
 			System.out.println("Problems with date?? " + "17/12/2020");
 		}
