@@ -23,7 +23,7 @@ public class ExtendedIteratorEvent implements ExtendedIterator{
 	        
 	//true    if ther    is    a    previous    element
 	public boolean hasPrevious() {
-		return pos>0;
+		return pos>-1;
 	}
 			
 	//It	is	placed	in	the	first	element
