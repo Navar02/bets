@@ -16,8 +16,9 @@ public class ExtendedIteratorEvent implements ExtendedIterator{
 	
 	//return    the    actual    element    and    go    to    the    previous
 	public Event previous(){
+		Event evento=eventos.get(pos);
 		pos--;
-		return eventos.get(pos);
+		return evento;
 	}
 	        
 	//true    if ther    is    a    previous    element
@@ -32,7 +33,7 @@ public class ExtendedIteratorEvent implements ExtendedIterator{
 			
 	// It	is	placed	in	the	last	element
 	public void goLast() {
-		pos=eventos.size();
+		pos=eventos.size()-1;
 	}
 
 	@Override
