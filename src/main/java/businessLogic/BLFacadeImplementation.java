@@ -1,6 +1,8 @@
 package businessLogic;
+import java.util.ArrayList;
 //hola
 import java.util.Date;
+import java.util.List;
 import java.util.ResourceBundle;
 import java.util.Vector;
 import java.util.logging.Logger;
@@ -300,6 +302,12 @@ public class BLFacadeImplementation  implements BLFacade {
 		dbManager.open(false);
 		dbManager.setImageUser(user, ruta);
 		dbManager.close();
+	}
+
+	@Override
+	public ExtendedIterator<Event> getEventsIterator(Date date) {
+		return new ExtendedIteratorEvent(new ArrayList<>(getEvents(date)));
+		
 	}
 	
 }

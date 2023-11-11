@@ -8,10 +8,14 @@ import javax.xml.ws.Service;
 
 import businessLogic.BLFacade;
 import businessLogic.BLFacadeImplementation;
+import configuration.ConfigXML;
 import dataAccess.DataAccess;
 import gui.MainGUI;
 
 public class BLFactory {
+	
+	private BLFacade appFacadeInterface;
+	
 	public BLFactory() {
 		
 	}
@@ -31,4 +35,10 @@ public class BLFactory {
 		}
 		return appFacadeInterface;
 	}
+	
+	
+	public BLFacade getBusinessLogicFactory(int n) {
+	        return MainGUI.getBusinessLogic();
+	    }
+	
 }

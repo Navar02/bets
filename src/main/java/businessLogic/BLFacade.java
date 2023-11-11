@@ -108,4 +108,6 @@ public interface BLFacade  {
 		
 	 public void setImageUser(String user, String ruta);
 	 
+	 //2.ejercicio
+	 public	ExtendedIterator<Event>	getEventsIterator(Date	date);
 }
