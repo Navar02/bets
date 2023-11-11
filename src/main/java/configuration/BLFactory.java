@@ -37,8 +37,4 @@ public class BLFactory {
 	}
 	
 	
-	public BLFacade getBusinessLogicFactory(int n) {
-	        return MainGUI.getBusinessLogic();
-	    }
-	
 }
